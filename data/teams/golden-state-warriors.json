@@ -1,0 +1,1277 @@
+{
+    "schedule": [
+        {
+            "datetime": "2014-11-21T22:30:00-04:56", 
+            "fullDate": "Fri, Nov 21", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "utah", 
+                "address": "301 W. South Temple St., Salt Lake City, UT 84101", 
+                "arena": "EnergySolutions Arena", 
+                "city": "Salt Lake City", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "utah-jazz", 
+                "lat": 40.768268, 
+                "location": "Utah", 
+                "lon": -111.901087, 
+                "nickname": "Jazz"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2014-12-02T22:30:00-04:56", 
+            "fullDate": "Tue, Dec 2", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "orl", 
+                "address": "400 W. Church St., Orlando, FL 32801", 
+                "arena": "Amway Center", 
+                "city": "Orlando", 
+                "conference": "East", 
+                "division": "Southeast", 
+                "full_name": "orlando_magic", 
+                "lat": 28.539832, 
+                "location": "Orlando", 
+                "lon": -81.3840452, 
+                "nickname": "Magic"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2014-12-04T22:30:00-04:56", 
+            "fullDate": "Thu, Dec 4", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "no", 
+                "address": "1501 Girod St., New Orleans, LA 70113", 
+                "arena": "New Orleans Arena", 
+                "city": "New Orleans", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "new-orleans-pelicans", 
+                "lat": 29.9485576, 
+                "location": "New Orleans", 
+                "lon": -90.07661159999999, 
+                "nickname": "Pelicans"
+            }, 
+            "tv": "TNT", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2014-12-10T22:30:00-04:56", 
+            "fullDate": "Wed, Dec 10", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "hou", 
+                "address": "1510 Polk St., Houston, TX 77002", 
+                "arena": "Toyota Center", 
+                "city": "Houston", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "houston-rockets", 
+                "lat": 29.7513984, 
+                "location": "Houston", 
+                "lon": -95.3621397, 
+                "nickname": "Rockets"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2014-12-18T22:30:00-04:56", 
+            "fullDate": "Thu, Dec 18", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "okc", 
+                "address": "100 W. Reno Ave., Oklahoma City, OK 73102", 
+                "arena": "Chesapeake Energy Arena", 
+                "city": "Oklahoma City", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "oklahoma-city-thunder", 
+                "lat": 35.463391, 
+                "location": "Oklahoma City", 
+                "lon": -97.514594, 
+                "nickname": "Thunder"
+            }, 
+            "tv": "TNT", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2014-12-22T22:30:00-04:56", 
+            "fullDate": "Mon, Dec 22", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "sac", 
+                "address": "One Sports Parkway, Sacramento, CA 95834", 
+                "arena": "Sleep Train Arena", 
+                "city": "Sacramento", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "sacramento-kings", 
+                "lat": 38.648005, 
+                "location": "Sacramento", 
+                "lon": -121.517077, 
+                "nickname": "Kings"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2014-12-27T22:30:00-04:56", 
+            "fullDate": "Sat, Dec 27", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "min", 
+                "address": "600 First Ave. North, Minneapolis, MN 55403", 
+                "arena": "Target Center", 
+                "city": "Minneapolis", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "minnesota-timberwolves", 
+                "lat": 44.979548, 
+                "location": "Minnesota", 
+                "lon": -93.27615899999999, 
+                "nickname": "Timberwolves"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2014-12-30T22:30:00-04:56", 
+            "fullDate": "Tue, Dec 30", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "phi", 
+                "address": "3601 S. Broad St., Philadelphia, PA 19148", 
+                "arena": "Wells Fargo Center", 
+                "city": "Philadelphia", 
+                "conference": "East", 
+                "division": "Atlantic", 
+                "full_name": "philadelphia-76ers", 
+                "lat": 39.9044734, 
+                "location": "Philadelphia", 
+                "lon": -75.1712574, 
+                "nickname": "76ers"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-02T22:30:00-04:56", 
+            "fullDate": "Fri, Jan 2", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "tor", 
+                "address": "40 Bay St., Toronto, ON M5J 2X2", 
+                "arena": "Air Canada Centre", 
+                "city": "Toronto", 
+                "conference": "East", 
+                "division": "Atlantic", 
+                "full_name": "toronto-raptors", 
+                "lat": 43.644067, 
+                "location": "Toronto", 
+                "lon": -79.3784331, 
+                "nickname": "Raptors"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-05T22:30:00-04:56", 
+            "fullDate": "Mon, Jan 5", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "okc", 
+                "address": "100 W. Reno Ave., Oklahoma City, OK 73102", 
+                "arena": "Chesapeake Energy Arena", 
+                "city": "Oklahoma City", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "oklahoma-city-thunder", 
+                "lat": 35.463391, 
+                "location": "Oklahoma City", 
+                "lon": -97.514594, 
+                "nickname": "Thunder"
+            }, 
+            "tv": "NBATV", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-07T22:30:00-04:56", 
+            "fullDate": "Wed, Jan 7", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "ind", 
+                "address": "125 S. Pennsylvania St., Indianapolis, IN 46204", 
+                "arena": "Bankers Life Fieldhouse", 
+                "city": "Indianapolis", 
+                "conference": "East", 
+                "division": "Central", 
+                "full_name": "indiana-pacers", 
+                "lat": 39.764064, 
+                "location": "Indiana", 
+                "lon": -86.155507, 
+                "nickname": "Pacers"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-09T22:30:00-04:56", 
+            "fullDate": "Fri, Jan 9", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "cle", 
+                "address": "One Center Court, Cleveland, OH 44115", 
+                "arena": "Quicken Loans Arena", 
+                "city": "Cleveland", 
+                "conference": "East", 
+                "division": "Central", 
+                "full_name": "cleveland-cavaliers", 
+                "lat": 41.4967035, 
+                "location": "Cleveland", 
+                "lon": -81.6894825, 
+                "nickname": "Cavaliers"
+            }, 
+            "tv": "ESPN", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-14T22:30:00-04:56", 
+            "fullDate": "Wed, Jan 14", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "mia", 
+                "address": "601 Biscayne Blvd., Miami, FL 33132", 
+                "arena": "AmericanAirlines Arena", 
+                "city": "Miami", 
+                "conference": "East", 
+                "division": "Southeast", 
+                "full_name": "miami-heat", 
+                "lat": 25.781232, 
+                "location": "Miami", 
+                "lon": -80.187805, 
+                "nickname": "Heat"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-19T16:00:00-04:56", 
+            "fullDate": "Mon, Jan 19", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "den", 
+                "address": "1000 Chopper Circle, Denver, CO 80204", 
+                "arena": "Pepsi Center", 
+                "city": "Denver", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "denver-nuggets", 
+                "lat": 39.7483118, 
+                "location": "Denver", 
+                "lon": -105.0077534, 
+                "nickname": "Nuggets"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-21T22:30:00-04:56", 
+            "fullDate": "Wed, Jan 21", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "hou", 
+                "address": "1510 Polk St., Houston, TX 77002", 
+                "arena": "Toyota Center", 
+                "city": "Houston", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "houston-rockets", 
+                "lat": 29.7513984, 
+                "location": "Houston", 
+                "lon": -95.3621397, 
+                "nickname": "Rockets"
+            }, 
+            "tv": "ESPN", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-23T22:30:00-04:56", 
+            "fullDate": "Fri, Jan 23", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "sac", 
+                "address": "One Sports Parkway, Sacramento, CA 95834", 
+                "arena": "Sleep Train Arena", 
+                "city": "Sacramento", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "sacramento-kings", 
+                "lat": 38.648005, 
+                "location": "Sacramento", 
+                "lon": -121.517077, 
+                "nickname": "Kings"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-25T20:00:00-04:56", 
+            "fullDate": "Sun, Jan 25", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "bos", 
+                "address": "100 Legends Way, Boston, MA 02114", 
+                "arena": "TD Garden", 
+                "city": "Boston", 
+                "conference": "East", 
+                "division": "Atlantic", 
+                "full_name": "boston-celtics", 
+                "lat": 42.36617589999999, 
+                "location": "Boston", 
+                "lon": -71.0602624, 
+                "nickname": "Celtics"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-27T22:30:00-04:56", 
+            "fullDate": "Tue, Jan 27", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "chi", 
+                "address": "1901 W. Madison St., Chicago, IL 60612", 
+                "arena": "United Center", 
+                "city": "Chicago", 
+                "conference": "East", 
+                "division": "Central", 
+                "full_name": "chicago-bulls", 
+                "lat": 41.8812526, 
+                "location": "Chicago", 
+                "lon": -87.6741557, 
+                "nickname": "Bulls"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-01-31T22:30:00-04:56", 
+            "fullDate": "Sat, Jan 31", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "phx", 
+                "address": "201 E. Jefferson St., Phoenix, AZ 85004", 
+                "arena": "US Airways Center", 
+                "city": "Phoenix", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "phoenix-suns", 
+                "lat": 33.4459, 
+                "location": "Phoenix", 
+                "lon": -112.071211, 
+                "nickname": "Suns"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-02-04T22:30:00-04:56", 
+            "fullDate": "Wed, Feb 4", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "dal", 
+                "address": "2500 Victory Ave., Dallas, TX 75219", 
+                "arena": "American Airlines Center", 
+                "city": "Dallas", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "dallas-mavericks", 
+                "lat": 32.7899544, 
+                "location": "Dallas", 
+                "lon": -96.8111569, 
+                "nickname": "Mavericks"
+            }, 
+            "tv": "ESPN", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-02-20T22:30:00-04:56", 
+            "fullDate": "Fri, Feb 20", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "sa", 
+                "address": "One AT&T Center Parkway, San Antonio, TX 78219", 
+                "arena": "AT&T Center", 
+                "city": "San Antonio", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "san-antonio-spurs", 
+                "lat": 29.4342371, 
+                "location": "San-Antonio", 
+                "lon": -98.433667, 
+                "nickname": "Spurs"
+            }, 
+            "tv": "ESPN", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-04T22:30:00-04:56", 
+            "fullDate": "Wed, Mar 4", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "mil", 
+                "address": "1001 N. Fourth St., Milwaukee, WI 53203", 
+                "arena": "BMO Harris Bradley Center", 
+                "city": "Milwaukee", 
+                "conference": "East", 
+                "division": "Central", 
+                "full_name": "milwaukee-bucks", 
+                "lat": 43.0430094, 
+                "location": "Milwaukee", 
+                "lon": -87.9165562, 
+                "nickname": "Bucks"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-06T22:30:00-04:56", 
+            "fullDate": "Fri, Mar 6", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "dal", 
+                "address": "2500 Victory Ave., Dallas, TX 75219", 
+                "arena": "American Airlines Center", 
+                "city": "Dallas", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "dallas-mavericks", 
+                "lat": 32.7899544, 
+                "location": "Dallas", 
+                "lon": -96.8111569, 
+                "nickname": "Mavericks"
+            }, 
+            "tv": "ESPN", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-08T15:30:00-04:56", 
+            "fullDate": "Sun, Mar 8", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "lac", 
+                "address": "1111 S. Figueroa St., Los Angeles, CA 90015", 
+                "arena": "Staples Center", 
+                "city": "Los Angeles", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "los-angeles-clippers", 
+                "lat": 34.043125, 
+                "location": "Los Angeles", 
+                "lon": -118.267118, 
+                "nickname": "Clippers"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-11T22:30:00-04:56", 
+            "fullDate": "Wed, Mar 11", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "det", 
+                "address": "Six Championship Drive, Auburn Hills, MI 48326", 
+                "arena": "The Palace of Auburn Hills", 
+                "city": "Auburn Hills", 
+                "conference": "East", 
+                "division": "Central", 
+                "full_name": "detroit-pistons", 
+                "lat": 42.69651100000001, 
+                "location": "Detroit", 
+                "lon": -83.2437214, 
+                "nickname": "Pistons"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-14T22:30:00-04:56", 
+            "fullDate": "Sat, Mar 14", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "ny", 
+                "address": "Four Pennsylvania Plaza, New York, NY 10001", 
+                "arena": "Madison Square Garden", 
+                "city": "New York City", 
+                "conference": "East", 
+                "division": "Atlantic", 
+                "full_name": "new-york-knicks", 
+                "lat": 40.7508707, 
+                "location": "New York", 
+                "lon": -73.99426609999999, 
+                "nickname": "Knicks"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-16T22:30:00-04:56", 
+            "fullDate": "Mon, Mar 16", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "lal", 
+                "address": "1111 S. Figueroa St., Los Angeles, CA 90015", 
+                "arena": "Staples Center", 
+                "city": "Los Angeles", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "los-angeles-lakers", 
+                "lat": 34.043125, 
+                "location": "Los Angeles", 
+                "lon": -118.267118, 
+                "nickname": "Lakers"
+            }, 
+            "tv": "ESPN", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-18T22:30:00-04:56", 
+            "fullDate": "Wed, Mar 18", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "atl", 
+                "address": "One Philips Drive, Atlanta, GA 30303", 
+                "arena": "Philips Arena", 
+                "city": "Atlanta", 
+                "conference": "East", 
+                "division": "Southeast", 
+                "full_name": "atlanta-hawks", 
+                "lat": 33.7570952, 
+                "location": "Atlanta", 
+                "lon": -84.3971653, 
+                "nickname": "Hawks"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-20T22:30:00-04:56", 
+            "fullDate": "Fri, Mar 20", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "no", 
+                "address": "1501 Girod St., New Orleans, LA 70113", 
+                "arena": "New Orleans Arena", 
+                "city": "New Orleans", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "new-orleans-pelicans", 
+                "lat": 29.9485576, 
+                "location": "New Orleans", 
+                "lon": -90.07661159999999, 
+                "nickname": "Pelicans"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-21T22:30:00-04:56", 
+            "fullDate": "Sat, Mar 21", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "utah", 
+                "address": "301 W. South Temple St., Salt Lake City, UT 84101", 
+                "arena": "EnergySolutions Arena", 
+                "city": "Salt Lake City", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "utah-jazz", 
+                "lat": 40.768268, 
+                "location": "Utah", 
+                "lon": -111.901087, 
+                "nickname": "Jazz"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-03-23T22:30:00-04:56", 
+            "fullDate": "Mon, Mar 23", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "wsh", 
+                "address": "601 F St. N.W., Washington, D.C. 20004", 
+                "arena": "Verizon Center", 
+                "city": "Washington D.C.", 
+                "conference": "East", 
+                "division": "Southeast", 
+                "full_name": "washington-wizards", 
+                "lat": 38.8975827, 
+                "location": "Washington", 
+                "lon": -77.0210553, 
+                "nickname": "Wizards"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-04-02T22:30:00-04:56", 
+            "fullDate": "Thu, Apr 2", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "phx", 
+                "address": "201 E. Jefferson St., Phoenix, AZ 85004", 
+                "arena": "US Airways Center", 
+                "city": "Phoenix", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "phoenix-suns", 
+                "lat": 33.4459, 
+                "location": "Phoenix", 
+                "lon": -112.071211, 
+                "nickname": "Suns"
+            }, 
+            "tv": "TNT", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-04-09T22:30:00-04:56", 
+            "fullDate": "Thu, Apr 9", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "por", 
+                "address": "One Center Court, Portland, OR 97227", 
+                "arena": "Moda Center", 
+                "city": "Portland", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "portland-trail-blazers", 
+                "lat": 45.5319834, 
+                "location": "Portland", 
+                "lon": -122.6678056, 
+                "nickname": "Trail Blazers"
+            }, 
+            "tv": "TNT", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-04-11T22:30:00-04:56", 
+            "fullDate": "Sat, Apr 11", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "min", 
+                "address": "600 First Ave. North, Minneapolis, MN 55403", 
+                "arena": "Target Center", 
+                "city": "Minneapolis", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "minnesota-timberwolves", 
+                "lat": 44.979548, 
+                "location": "Minnesota", 
+                "lon": -93.27615899999999, 
+                "nickname": "Timberwolves"
+            }, 
+            "tv": "Regional", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-04-13T22:30:00-04:56", 
+            "fullDate": "Mon, Apr 13", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "mem", 
+                "address": "191 Beale St., Memphis, TN 38103", 
+                "arena": "FedExForum", 
+                "city": "Memphis", 
+                "conference": "West", 
+                "division": "Southwest", 
+                "full_name": "memphis-grizzlies", 
+                "lat": 35.136686, 
+                "location": "Memphis", 
+                "lon": -90.051885, 
+                "nickname": "Grizzlies"
+            }, 
+            "tv": "NBATV", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }, 
+        {
+            "datetime": "2015-04-15T22:30:00-04:56", 
+            "fullDate": "Wed, Apr 15", 
+            "hometeam": {
+                "abbr": "gs", 
+                "address": "7000 Coliseum Way, Oakland, CA 94621", 
+                "arena": "Oracle Arena", 
+                "city": "Oakland", 
+                "conference": "West", 
+                "division": "Pacific", 
+                "full_name": "golden-state-warriors", 
+                "lat": 37.7515541, 
+                "location": "Golden State", 
+                "lon": -122.2015715, 
+                "nickname": "Warriors"
+            }, 
+            "opponent": {
+                "abbr": "den", 
+                "address": "1000 Chopper Circle, Denver, CO 80204", 
+                "arena": "Pepsi Center", 
+                "city": "Denver", 
+                "conference": "West", 
+                "division": "Northwest", 
+                "full_name": "denver-nuggets", 
+                "lat": 39.7483118, 
+                "location": "Denver", 
+                "lon": -105.0077534, 
+                "nickname": "Nuggets"
+            }, 
+            "tv": "ESPN", 
+            "where": {
+                "arena": "Oracle Arena", 
+                "city": "Oakland"
+            }
+        }
+    ], 
+    "team": {
+        "abbr": "gs", 
+        "address": "7000 Coliseum Way, Oakland, CA 94621", 
+        "arena": "Oracle Arena", 
+        "city": "Oakland", 
+        "conference": "West", 
+        "division": "Pacific", 
+        "full_name": "golden-state-warriors", 
+        "lat": 37.7515541, 
+        "location": "Golden State", 
+        "lon": -122.2015715, 
+        "nickname": "Warriors"
+    }
+}
