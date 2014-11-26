@@ -42,15 +42,20 @@ def compareTimes(games, time):
         gametime_obj = datetime.datetime.strptime(gametime, '%H:%M:%S')
         if time_obj + thirty > gametime_obj:
             starting_games.append(game)
+            games.remove(game)
     if not starting_games:
-        return None
+        return None, games
     else:
-        return starting_games
+        return starting_games, games
 
 
-def postGameThread(*games):
-    None
-    #TODO: Finish function to actually write the game threads
+def postGameThread(games):
+    print "\nStarting soon: "
+    for game in games:
+        print "[STARTING SOON]{home} vs. {away} @ {time}".format(home=game['hometeam']['nickname'],
+                                                    away=game['opponent']['nickname'],
+                                                    time=game['datetime'][11:19])
+   #TODO: Finish function to actually write the game threads
 
 if __name__ == '__main__':
     current_date = None
@@ -71,7 +76,7 @@ if __name__ == '__main__':
                 print "{home} vs. {away} @ {time}".format(home=game['hometeam']['nickname'],
                                                           away=game['opponent']['nickname'],
                                                           time=game['datetime'][11:19])
-        starting_games = compareTimes(todays_games, time)
+        starting_games, todays_games = compareTimes(todays_games, time)
         if starting_games is not None:
             postGameThread(starting_games)
         else:
