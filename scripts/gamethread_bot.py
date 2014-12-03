@@ -4,10 +4,14 @@ import datetime
 import pytz
 import json
 from time import sleep
+import praw
+from pyquery import PyQuery
+import requests
 
 teams_file = open('../data/teams.json').read()
 teams_json = json.loads(teams_file)
 teams = teams_json['teams']
+SUBREDDIT = 'seemethere'
 running = True
 
 def getCurrent():
@@ -48,16 +52,48 @@ def compareTimes(games, time):
     else:
         return starting_games, games
 
+def generate_title(game):
+    title_template = "GAME THREAD: {acity} {away} ({awin}-{aloss}) @ {hcity} {home} ({hwin}-{hloss}) - {date}"
+    away = game['opponent']
+    away_rec = get_record(away)
+    home = game['hometeam']
+    home_rec = get_record(home)
+    date = game['datetime'][0:10]
+    return title_template.format(acity=away['location'].replace('-', ' '),
+                                 away=away['nickname'],
+                                 awin=away_rec[0],
+                                 aloss=away_rec[1],
+                                 hcity=home['location'].replace('-', ' '),
+                                 home=home['nickname'],
+                                 hwin=home_rec[0],
+                                 hloss=home_rec[1],
+                                 date=date)
 
-def postGameThread(games):
+def postGameThread(games, redt):
     print "\nStarting soon: "
     for game in games:
-        print "[STARTING SOON]{home} vs. {away} @ {time}".format(home=game['hometeam']['nickname'],
-                                                    away=game['opponent']['nickname'],
-                                                    time=game['datetime'][11:19])
-   #TODO: Finish function to actually write the game threads
+        title = generate_title(game)
+
+def get_login(inp):
+    with open(inp, 'r') as login_file:
+        user = login_file.readline().strip()
+        password = login_file.readline().strip()
+    return user, password
+
+# Adapted from: https://github.com/alex/nba-gamethread
+def get_record(team):
+    team_url = 'http://espn.go.com/nba/team/schedule/_/name/{0}/{1}'.format(team['abbr'], team['full_name'])
+    r = requests.get(team_url)
+    r.raise_for_status()
+    page = PyQuery(r.text)
+    text = page('#sub-branding').find('.sub-title').text()
+    record = text.split(',', 1)[0]
+    return record.split("-")
 
 if __name__ == '__main__':
+    user, password = get_login('../LOGIN')
+    redt = praw.Reddit(user_agent='NBA_MOD_BOT')
+    redt.login(user, password)
     current_date = None
     todays_games = []
     starting_games = []
@@ -73,9 +109,13 @@ if __name__ == '__main__':
             todays_games = getTodaysGames(date)
             print "Todays Games:"
             for game in todays_games:
-                print "{home} vs. {away} @ {time}".format(home=game['hometeam']['nickname'],
-                                                          away=game['opponent']['nickname'],
-                                                          time=game['datetime'][11:19])
+                record1 = get_record(game['hometeam'])
+                record2 = get_record(game['opponent'])
+                print "{home} ({record1}) vs. {away} ({record2}) @ {time}".format(home=game['hometeam']['nickname'],
+                                                                    record1=record1,
+                                                                    record2=record2,
+                                                                    away=game['opponent']['nickname'],
+                                                                    time=game['datetime'][11:19])
         starting_games, todays_games = compareTimes(todays_games, time)
         if starting_games is not None:
             postGameThread(starting_games)
