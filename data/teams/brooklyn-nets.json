@@ -1,111 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-11-19T19:30:00-04:56", 
-            "fullDate": "Wed, Nov 19", 
-            "hometeam": {
-                "abbr": "bkn", 
-                "address": "620 Atlantic Avenue, Brooklyn, NY 112", 
-                "arena": "Barclays Center", 
-                "city": "Brooklyn", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "brooklyn-nets", 
-                "lat": 40.6834453, 
-                "location": "Brooklyn", 
-                "lon": -73.9760482, 
-                "nickname": "Nets"
-            }, 
-            "opponent": {
-                "abbr": "mil", 
-                "address": "1001 N. Fourth St., Milwaukee, WI 53203", 
-                "arena": "BMO Harris Bradley Center", 
-                "city": "Milwaukee", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "milwaukee-bucks", 
-                "lat": 43.0430094, 
-                "location": "Milwaukee", 
-                "lon": -87.9165562, 
-                "nickname": "Bucks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Barclays Center", 
-                "city": "Brooklyn"
-            }
-        }, 
-        {
-            "datetime": "2014-11-30T15:00:00-04:56", 
-            "fullDate": "Sun, Nov 30", 
-            "hometeam": {
-                "abbr": "bkn", 
-                "address": "620 Atlantic Avenue, Brooklyn, NY 112", 
-                "arena": "Barclays Center", 
-                "city": "Brooklyn", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "brooklyn-nets", 
-                "lat": 40.6834453, 
-                "location": "Brooklyn", 
-                "lon": -73.9760482, 
-                "nickname": "Nets"
-            }, 
-            "opponent": {
-                "abbr": "chi", 
-                "address": "1901 W. Madison St., Chicago, IL 60612", 
-                "arena": "United Center", 
-                "city": "Chicago", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "chicago-bulls", 
-                "lat": 41.8812526, 
-                "location": "Chicago", 
-                "lon": -87.6741557, 
-                "nickname": "Bulls"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Barclays Center", 
-                "city": "Brooklyn"
-            }
-        }, 
-        {
-            "datetime": "2014-12-03T19:30:00-04:56", 
-            "fullDate": "Wed, Dec 3", 
-            "hometeam": {
-                "abbr": "bkn", 
-                "address": "620 Atlantic Avenue, Brooklyn, NY 112", 
-                "arena": "Barclays Center", 
-                "city": "Brooklyn", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "brooklyn-nets", 
-                "lat": 40.6834453, 
-                "location": "Brooklyn", 
-                "lon": -73.9760482, 
-                "nickname": "Nets"
-            }, 
-            "opponent": {
-                "abbr": "sa", 
-                "address": "One AT&T Center Parkway, San Antonio, TX 78219", 
-                "arena": "AT&T Center", 
-                "city": "San Antonio", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "san-antonio-spurs", 
-                "lat": 29.4342371, 
-                "location": "San-Antonio", 
-                "lon": -98.433667, 
-                "nickname": "Spurs"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Barclays Center", 
-                "city": "Brooklyn"
-            }
-        }, 
-        {
             "datetime": "2014-12-05T19:30:00-04:56", 
             "fullDate": "Fri, Dec 5", 
             "hometeam": {
@@ -119,6 +14,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -132,6 +28,7 @@
                 "lat": 33.7570952, 
                 "location": "Atlanta", 
                 "lon": -84.3971653, 
+                "nba_abbr": null, 
                 "nickname": "Hawks"
             }, 
             "tv": "Regional", 
@@ -154,6 +51,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -167,6 +65,7 @@
                 "lat": 41.4967035, 
                 "location": "Cleveland", 
                 "lon": -81.6894825, 
+                "nba_abbr": null, 
                 "nickname": "Cavaliers"
             }, 
             "tv": "Regional", 
@@ -189,6 +88,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -202,6 +102,7 @@
                 "lat": 39.9044734, 
                 "location": "Philadelphia", 
                 "lon": -75.1712574, 
+                "nba_abbr": null, 
                 "nickname": "76ers"
             }, 
             "tv": "Regional", 
@@ -224,6 +125,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -237,6 +139,7 @@
                 "lat": 25.781232, 
                 "location": "Miami", 
                 "lon": -80.187805, 
+                "nba_abbr": null, 
                 "nickname": "Heat"
             }, 
             "tv": "Regional", 
@@ -259,6 +162,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -272,9 +176,10 @@
                 "lat": 42.69651100000001, 
                 "location": "Detroit", 
                 "lon": -83.2437214, 
+                "nba_abbr": null, 
                 "nickname": "Pistons"
             }, 
-            "tv": "Regional", 
+            "tv": "NBATV", 
             "where": {
                 "arena": "Barclays Center", 
                 "city": "Brooklyn"
@@ -294,6 +199,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -307,6 +213,7 @@
                 "lat": 39.7483118, 
                 "location": "Denver", 
                 "lon": -105.0077534, 
+                "nba_abbr": null, 
                 "nickname": "Nuggets"
             }, 
             "tv": "Regional", 
@@ -329,6 +236,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -342,6 +250,7 @@
                 "lat": 39.764064, 
                 "location": "Indiana", 
                 "lon": -86.155507, 
+                "nba_abbr": null, 
                 "nickname": "Pacers"
             }, 
             "tv": "Regional", 
@@ -364,6 +273,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -377,6 +287,7 @@
                 "lat": 38.648005, 
                 "location": "Sacramento", 
                 "lon": -121.517077, 
+                "nba_abbr": null, 
                 "nickname": "Kings"
             }, 
             "tv": "Regional", 
@@ -399,6 +310,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -412,6 +324,7 @@
                 "lat": 32.7899544, 
                 "location": "Dallas", 
                 "lon": -96.8111569, 
+                "nba_abbr": null, 
                 "nickname": "Mavericks"
             }, 
             "tv": "Regional", 
@@ -434,6 +347,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -447,6 +361,7 @@
                 "lat": 42.36617589999999, 
                 "location": "Boston", 
                 "lon": -71.0602624, 
+                "nba_abbr": null, 
                 "nickname": "Celtics"
             }, 
             "tv": "Regional", 
@@ -469,6 +384,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -482,6 +398,7 @@
                 "lat": 39.9044734, 
                 "location": "Philadelphia", 
                 "lon": -75.1712574, 
+                "nba_abbr": null, 
                 "nickname": "76ers"
             }, 
             "tv": "Regional", 
@@ -504,6 +421,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -517,6 +435,7 @@
                 "lat": 29.7513984, 
                 "location": "Houston", 
                 "lon": -95.3621397, 
+                "nba_abbr": null, 
                 "nickname": "Rockets"
             }, 
             "tv": "Regional", 
@@ -539,6 +458,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -552,6 +472,7 @@
                 "lat": 35.136686, 
                 "location": "Memphis", 
                 "lon": -90.051885, 
+                "nba_abbr": null, 
                 "nickname": "Grizzlies"
             }, 
             "tv": "Regional", 
@@ -574,6 +495,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -587,6 +509,7 @@
                 "lat": 38.8975827, 
                 "location": "Washington", 
                 "lon": -77.0210553, 
+                "nba_abbr": null, 
                 "nickname": "Wizards"
             }, 
             "tv": "Regional", 
@@ -609,6 +532,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -622,6 +546,7 @@
                 "lat": 45.5319834, 
                 "location": "Portland", 
                 "lon": -122.6678056, 
+                "nba_abbr": null, 
                 "nickname": "Trail Blazers"
             }, 
             "tv": "NBATV", 
@@ -644,6 +569,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -657,6 +583,7 @@
                 "lat": 43.644067, 
                 "location": "Toronto", 
                 "lon": -79.3784331, 
+                "nba_abbr": null, 
                 "nickname": "Raptors"
             }, 
             "tv": "Regional", 
@@ -679,6 +606,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -692,6 +620,7 @@
                 "lat": 34.043125, 
                 "location": "Los Angeles", 
                 "lon": -118.267118, 
+                "nba_abbr": null, 
                 "nickname": "Clippers"
             }, 
             "tv": "Regional", 
@@ -714,6 +643,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -727,6 +657,7 @@
                 "lat": 40.7508707, 
                 "location": "New York", 
                 "lon": -73.99426609999999, 
+                "nba_abbr": "nyk", 
                 "nickname": "Knicks"
             }, 
             "tv": "ESPN", 
@@ -749,6 +680,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -762,6 +694,7 @@
                 "lat": 37.7515541, 
                 "location": "Golden State", 
                 "lon": -122.2015715, 
+                "nba_abbr": null, 
                 "nickname": "Warriors"
             }, 
             "tv": "Regional", 
@@ -784,6 +717,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -797,6 +731,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "tv": "Regional", 
@@ -819,6 +754,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -832,6 +768,7 @@
                 "lat": 33.4459, 
                 "location": "Phoenix", 
                 "lon": -112.071211, 
+                "nba_abbr": null, 
                 "nickname": "Suns"
             }, 
             "tv": "Regional", 
@@ -854,6 +791,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -867,6 +805,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
+                "nba_abbr": null, 
                 "nickname": "Jazz"
             }, 
             "tv": "NBATV", 
@@ -889,6 +828,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -902,6 +842,7 @@
                 "lat": 29.9485576, 
                 "location": "New Orleans", 
                 "lon": -90.07661159999999, 
+                "nba_abbr": "nop", 
                 "nickname": "Pelicans"
             }, 
             "tv": "Regional", 
@@ -924,6 +865,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -937,6 +879,7 @@
                 "lat": 43.0430094, 
                 "location": "Milwaukee", 
                 "lon": -87.9165562, 
+                "nba_abbr": null, 
                 "nickname": "Bucks"
             }, 
             "tv": "Regional", 
@@ -959,6 +902,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -972,6 +916,7 @@
                 "lat": 42.36617589999999, 
                 "location": "Boston", 
                 "lon": -71.0602624, 
+                "nba_abbr": null, 
                 "nickname": "Celtics"
             }, 
             "tv": "NBATV", 
@@ -994,6 +939,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1007,6 +953,7 @@
                 "lat": 41.4967035, 
                 "location": "Cleveland", 
                 "lon": -81.6894825, 
+                "nba_abbr": null, 
                 "nickname": "Cavaliers"
             }, 
             "tv": "Regional", 
@@ -1029,6 +976,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1042,6 +990,7 @@
                 "lat": 34.043125, 
                 "location": "Los Angeles", 
                 "lon": -118.267118, 
+                "nba_abbr": null, 
                 "nickname": "Lakers"
             }, 
             "tv": "Regional", 
@@ -1064,6 +1013,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1077,6 +1027,7 @@
                 "lat": 39.764064, 
                 "location": "Indiana", 
                 "lon": -86.155507, 
+                "nba_abbr": null, 
                 "nickname": "Pacers"
             }, 
             "tv": "Regional", 
@@ -1099,6 +1050,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1112,6 +1064,7 @@
                 "lat": 43.644067, 
                 "location": "Toronto", 
                 "lon": -79.3784331, 
+                "nba_abbr": null, 
                 "nickname": "Raptors"
             }, 
             "tv": "Regional", 
@@ -1134,6 +1087,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1147,6 +1101,7 @@
                 "lat": 33.7570952, 
                 "location": "Atlanta", 
                 "lon": -84.3971653, 
+                "nba_abbr": null, 
                 "nickname": "Hawks"
             }, 
             "tv": "Regional", 
@@ -1169,6 +1124,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1182,6 +1138,7 @@
                 "lat": 38.8975827, 
                 "location": "Washington", 
                 "lon": -77.0210553, 
+                "nba_abbr": null, 
                 "nickname": "Wizards"
             }, 
             "tv": "Regional", 
@@ -1204,6 +1161,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1217,6 +1175,7 @@
                 "lat": 41.8812526, 
                 "location": "Chicago", 
                 "lon": -87.6741557, 
+                "nba_abbr": null, 
                 "nickname": "Bulls"
             }, 
             "tv": "Regional", 
@@ -1239,6 +1198,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "opponent": {
@@ -1252,6 +1212,7 @@
                 "lat": 28.539832, 
                 "location": "Orlando", 
                 "lon": -81.3840452, 
+                "nba_abbr": null, 
                 "nickname": "Magic"
             }, 
             "tv": "Regional", 
@@ -1272,6 +1233,7 @@
         "lat": 40.6834453, 
         "location": "Brooklyn", 
         "lon": -73.9760482, 
+        "nba_abbr": null, 
         "nickname": "Nets"
     }
 }

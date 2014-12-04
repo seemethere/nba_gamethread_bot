@@ -1,181 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-11-21T19:00:00-04:56", 
-            "fullDate": "Fri, Nov 21", 
-            "hometeam": {
-                "abbr": "cha", 
-                "address": "330 E. Trade St., Charlotte, NC 28202", 
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "charlotte-hornets", 
-                "lat": 35.2251392, 
-                "location": "Charlotte", 
-                "lon": -80.8406959, 
-                "nickname": "Hornets"
-            }, 
-            "opponent": {
-                "abbr": "orl", 
-                "address": "400 W. Church St., Orlando, FL 32801", 
-                "arena": "Amway Center", 
-                "city": "Orlando", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "orlando_magic", 
-                "lat": 28.539832, 
-                "location": "Orlando", 
-                "lon": -81.3840452, 
-                "nickname": "Magic"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte"
-            }
-        }, 
-        {
-            "datetime": "2014-11-24T19:00:00-04:56", 
-            "fullDate": "Mon, Nov 24", 
-            "hometeam": {
-                "abbr": "cha", 
-                "address": "330 E. Trade St., Charlotte, NC 28202", 
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "charlotte-hornets", 
-                "lat": 35.2251392, 
-                "location": "Charlotte", 
-                "lon": -80.8406959, 
-                "nickname": "Hornets"
-            }, 
-            "opponent": {
-                "abbr": "lac", 
-                "address": "1111 S. Figueroa St., Los Angeles, CA 90015", 
-                "arena": "Staples Center", 
-                "city": "Los Angeles", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "los-angeles-clippers", 
-                "lat": 34.043125, 
-                "location": "Los Angeles", 
-                "lon": -118.267118, 
-                "nickname": "Clippers"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte"
-            }
-        }, 
-        {
-            "datetime": "2014-11-26T19:00:00-04:56", 
-            "fullDate": "Wed, Nov 26", 
-            "hometeam": {
-                "abbr": "cha", 
-                "address": "330 E. Trade St., Charlotte, NC 28202", 
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "charlotte-hornets", 
-                "lat": 35.2251392, 
-                "location": "Charlotte", 
-                "lon": -80.8406959, 
-                "nickname": "Hornets"
-            }, 
-            "opponent": {
-                "abbr": "por", 
-                "address": "One Center Court, Portland, OR 97227", 
-                "arena": "Moda Center", 
-                "city": "Portland", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "portland-trail-blazers", 
-                "lat": 45.5319834, 
-                "location": "Portland", 
-                "lon": -122.6678056, 
-                "nickname": "Trail Blazers"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte"
-            }
-        }, 
-        {
-            "datetime": "2014-11-28T19:00:00-04:56", 
-            "fullDate": "Fri, Nov 28", 
-            "hometeam": {
-                "abbr": "cha", 
-                "address": "330 E. Trade St., Charlotte, NC 28202", 
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "charlotte-hornets", 
-                "lat": 35.2251392, 
-                "location": "Charlotte", 
-                "lon": -80.8406959, 
-                "nickname": "Hornets"
-            }, 
-            "opponent": {
-                "abbr": "gs", 
-                "address": "7000 Coliseum Way, Oakland, CA 94621", 
-                "arena": "Oracle Arena", 
-                "city": "Oakland", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "golden-state-warriors", 
-                "lat": 37.7515541, 
-                "location": "Golden State", 
-                "lon": -122.2015715, 
-                "nickname": "Warriors"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte"
-            }
-        }, 
-        {
-            "datetime": "2014-12-03T19:00:00-04:56", 
-            "fullDate": "Wed, Dec 3", 
-            "hometeam": {
-                "abbr": "cha", 
-                "address": "330 E. Trade St., Charlotte, NC 28202", 
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "charlotte-hornets", 
-                "lat": 35.2251392, 
-                "location": "Charlotte", 
-                "lon": -80.8406959, 
-                "nickname": "Hornets"
-            }, 
-            "opponent": {
-                "abbr": "chi", 
-                "address": "1901 W. Madison St., Chicago, IL 60612", 
-                "arena": "United Center", 
-                "city": "Chicago", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "chicago-bulls", 
-                "lat": 41.8812526, 
-                "location": "Chicago", 
-                "lon": -87.6741557, 
-                "nickname": "Bulls"
-            }, 
-            "tv": "NBATV", 
-            "where": {
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte"
-            }
-        }, 
-        {
             "datetime": "2014-12-05T19:00:00-04:56", 
             "fullDate": "Fri, Dec 5", 
             "hometeam": {
@@ -189,6 +14,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -202,6 +28,7 @@
                 "lat": 40.7508707, 
                 "location": "New York", 
                 "lon": -73.99426609999999, 
+                "nba_abbr": "nyk", 
                 "nickname": "Knicks"
             }, 
             "tv": "Regional", 
@@ -224,6 +51,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -237,6 +65,7 @@
                 "lat": 42.36617589999999, 
                 "location": "Boston", 
                 "lon": -71.0602624, 
+                "nba_abbr": null, 
                 "nickname": "Celtics"
             }, 
             "tv": "Regional", 
@@ -259,6 +88,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -272,6 +102,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "tv": "Regional", 
@@ -294,6 +125,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -307,6 +139,7 @@
                 "lat": 33.4459, 
                 "location": "Phoenix", 
                 "lon": -112.071211, 
+                "nba_abbr": null, 
                 "nickname": "Suns"
             }, 
             "tv": "Regional", 
@@ -329,6 +162,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -342,6 +176,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
+                "nba_abbr": null, 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
@@ -364,6 +199,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -377,6 +213,7 @@
                 "lat": 39.7483118, 
                 "location": "Denver", 
                 "lon": -105.0077534, 
+                "nba_abbr": null, 
                 "nickname": "Nuggets"
             }, 
             "tv": "Regional", 
@@ -399,6 +236,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -412,6 +250,7 @@
                 "lat": 28.539832, 
                 "location": "Orlando", 
                 "lon": -81.3840452, 
+                "nba_abbr": null, 
                 "nickname": "Magic"
             }, 
             "tv": "Regional", 
@@ -434,6 +273,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -447,6 +287,7 @@
                 "lat": 43.0430094, 
                 "location": "Milwaukee", 
                 "lon": -87.9165562, 
+                "nba_abbr": null, 
                 "nickname": "Bucks"
             }, 
             "tv": "NBATV", 
@@ -469,6 +310,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -482,6 +324,7 @@
                 "lat": 41.4967035, 
                 "location": "Cleveland", 
                 "lon": -81.6894825, 
+                "nba_abbr": null, 
                 "nickname": "Cavaliers"
             }, 
             "tv": "Regional", 
@@ -504,6 +347,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -517,6 +361,7 @@
                 "lat": 29.9485576, 
                 "location": "New Orleans", 
                 "lon": -90.07661159999999, 
+                "nba_abbr": "nop", 
                 "nickname": "Pelicans"
             }, 
             "tv": "Regional", 
@@ -539,6 +384,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -552,6 +398,7 @@
                 "lat": 29.4342371, 
                 "location": "San-Antonio", 
                 "lon": -98.433667, 
+                "nba_abbr": "sas", 
                 "nickname": "Spurs"
             }, 
             "tv": "Regional", 
@@ -574,6 +421,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -587,6 +435,7 @@
                 "lat": 39.764064, 
                 "location": "Indiana", 
                 "lon": -86.155507, 
+                "nba_abbr": null, 
                 "nickname": "Pacers"
             }, 
             "tv": "Regional", 
@@ -609,6 +458,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -622,6 +472,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "tv": "Regional", 
@@ -644,6 +495,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -657,6 +509,7 @@
                 "lat": 25.781232, 
                 "location": "Miami", 
                 "lon": -80.187805, 
+                "nba_abbr": null, 
                 "nickname": "Heat"
             }, 
             "tv": "Regional", 
@@ -679,6 +532,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -692,6 +546,7 @@
                 "lat": 40.7508707, 
                 "location": "New York", 
                 "lon": -73.99426609999999, 
+                "nba_abbr": "nyk", 
                 "nickname": "Knicks"
             }, 
             "tv": "NBATV", 
@@ -714,6 +569,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -727,6 +583,7 @@
                 "lat": 38.8975827, 
                 "location": "Washington", 
                 "lon": -77.0210553, 
+                "nba_abbr": null, 
                 "nickname": "Wizards"
             }, 
             "tv": "Regional", 
@@ -749,6 +606,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -762,6 +620,7 @@
                 "lat": 39.764064, 
                 "location": "Indiana", 
                 "lon": -86.155507, 
+                "nba_abbr": null, 
                 "nickname": "Pacers"
             }, 
             "tv": "Regional", 
@@ -784,6 +643,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -797,6 +657,7 @@
                 "lat": 42.69651100000001, 
                 "location": "Detroit", 
                 "lon": -83.2437214, 
+                "nba_abbr": null, 
                 "nickname": "Pistons"
             }, 
             "tv": "Regional", 
@@ -819,6 +680,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -832,6 +694,7 @@
                 "lat": 35.463391, 
                 "location": "Oklahoma City", 
                 "lon": -97.514594, 
+                "nba_abbr": null, 
                 "nickname": "Thunder"
             }, 
             "tv": "Regional", 
@@ -854,6 +717,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -867,6 +731,7 @@
                 "lat": 34.043125, 
                 "location": "Los Angeles", 
                 "lon": -118.267118, 
+                "nba_abbr": null, 
                 "nickname": "Lakers"
             }, 
             "tv": "Regional", 
@@ -889,6 +754,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -902,6 +768,7 @@
                 "lat": 43.644067, 
                 "location": "Toronto", 
                 "lon": -79.3784331, 
+                "nba_abbr": null, 
                 "nickname": "Raptors"
             }, 
             "tv": "Regional", 
@@ -924,6 +791,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -937,6 +805,7 @@
                 "lat": 38.8975827, 
                 "location": "Washington", 
                 "lon": -77.0210553, 
+                "nba_abbr": null, 
                 "nickname": "Wizards"
             }, 
             "tv": "Regional", 
@@ -959,6 +828,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -972,6 +842,7 @@
                 "lat": 38.648005, 
                 "location": "Sacramento", 
                 "lon": -121.517077, 
+                "nba_abbr": null, 
                 "nickname": "Kings"
             }, 
             "tv": "Regional", 
@@ -994,6 +865,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1007,6 +879,7 @@
                 "lat": 41.8812526, 
                 "location": "Chicago", 
                 "lon": -87.6741557, 
+                "nba_abbr": null, 
                 "nickname": "Bulls"
             }, 
             "tv": "Regional", 
@@ -1029,6 +902,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1042,6 +916,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "tv": "Regional", 
@@ -1064,6 +939,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1077,6 +953,7 @@
                 "lat": 33.7570952, 
                 "location": "Atlanta", 
                 "lon": -84.3971653, 
+                "nba_abbr": null, 
                 "nickname": "Hawks"
             }, 
             "tv": "Regional", 
@@ -1099,6 +976,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1112,6 +990,7 @@
                 "lat": 42.36617589999999, 
                 "location": "Boston", 
                 "lon": -71.0602624, 
+                "nba_abbr": null, 
                 "nickname": "Celtics"
             }, 
             "tv": "Regional", 
@@ -1134,6 +1013,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1147,6 +1027,7 @@
                 "lat": 42.69651100000001, 
                 "location": "Detroit", 
                 "lon": -83.2437214, 
+                "nba_abbr": null, 
                 "nickname": "Pistons"
             }, 
             "tv": "Regional", 
@@ -1169,6 +1050,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1182,6 +1064,7 @@
                 "lat": 39.9044734, 
                 "location": "Philadelphia", 
                 "lon": -75.1712574, 
+                "nba_abbr": null, 
                 "nickname": "76ers"
             }, 
             "tv": "Regional", 
@@ -1204,6 +1087,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1217,6 +1101,7 @@
                 "lat": 43.644067, 
                 "location": "Toronto", 
                 "lon": -79.3784331, 
+                "nba_abbr": null, 
                 "nickname": "Raptors"
             }, 
             "tv": "ESPN", 
@@ -1239,6 +1124,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "opponent": {
@@ -1252,6 +1138,7 @@
                 "lat": 29.7513984, 
                 "location": "Houston", 
                 "lon": -95.3621397, 
+                "nba_abbr": null, 
                 "nickname": "Rockets"
             }, 
             "tv": "Regional", 
@@ -1272,6 +1159,7 @@
         "lat": 35.2251392, 
         "location": "Charlotte", 
         "lon": -80.8406959, 
+        "nba_abbr": null, 
         "nickname": "Hornets"
     }
 }

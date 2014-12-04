@@ -69,7 +69,7 @@ def generate_title(game):
                                  hloss=home_rec[1],
                                  date=date)
 
-def postGameThread(games, redt):
+def post_GameThread(games, redt):
     print "\nStarting soon: "
     for game in games:
         title = generate_title(game)
@@ -89,6 +89,25 @@ def get_record(team):
     text = page('#sub-branding').find('.sub-title').text()
     record = text.split(',', 1)[0]
     return record.split("-")
+
+def get_abbr(team):
+    if team['nba_abbr'] is not None:
+        return team['nba_abbr'].uppercase()
+    else:
+        return['abbr'].uppercase()
+
+def get_nba_page(game):
+    year = game['datetime'][0:4]
+    month = game['datetime'][5:7]
+    day = game['datetime'][8:10]
+    home = get_abbr(game['hometeam'])
+    away = get_abbr(game['opponent'])
+    url = "http://www.nba.com/games/{year}{month}{day}/{away}{home}/gameinfo.html"
+    return url.format(year=year,
+                      month=month,
+                      day=day,
+                      away=away,
+                      home=home)
 
 if __name__ == '__main__':
     user, password = get_login('../LOGIN')
@@ -111,6 +130,7 @@ if __name__ == '__main__':
             for game in todays_games:
                 record1 = get_record(game['hometeam'])
                 record2 = get_record(game['opponent'])
+                print get_nba_page(game)
                 print "{home} ({record1}) vs. {away} ({record2}) @ {time}".format(home=game['hometeam']['nickname'],
                                                                     record1=record1,
                                                                     record2=record2,
@@ -118,7 +138,7 @@ if __name__ == '__main__':
                                                                     time=game['datetime'][11:19])
         starting_games, todays_games = compareTimes(todays_games, time)
         if starting_games is not None:
-            postGameThread(starting_games)
+            post_GameThread(starting_games)
         else:
             print "\nNo games starting soon!"
         print "Sleeping for 30 minutes..."

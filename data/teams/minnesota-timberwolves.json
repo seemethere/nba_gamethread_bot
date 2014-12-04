@@ -1,216 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-11-19T20:00:00-04:56", 
-            "fullDate": "Wed, Nov 19", 
-            "hometeam": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nickname": "Timberwolves"
-            }, 
-            "opponent": {
-                "abbr": "ny", 
-                "address": "Four Pennsylvania Plaza, New York, NY 10001", 
-                "arena": "Madison Square Garden", 
-                "city": "New York City", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "new-york-knicks", 
-                "lat": 40.7508707, 
-                "location": "New York", 
-                "lon": -73.99426609999999, 
-                "nickname": "Knicks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Target Center", 
-                "city": "Minneapolis"
-            }
-        }, 
-        {
-            "datetime": "2014-11-21T20:00:00-04:56", 
-            "fullDate": "Fri, Nov 21", 
-            "hometeam": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nickname": "Timberwolves"
-            }, 
-            "opponent": {
-                "abbr": "sa", 
-                "address": "One AT&T Center Parkway, San Antonio, TX 78219", 
-                "arena": "AT&T Center", 
-                "city": "San Antonio", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "san-antonio-spurs", 
-                "lat": 29.4342371, 
-                "location": "San-Antonio", 
-                "lon": -98.433667, 
-                "nickname": "Spurs"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Target Center", 
-                "city": "Minneapolis"
-            }
-        }, 
-        {
-            "datetime": "2014-11-22T20:00:00-04:56", 
-            "fullDate": "Sat, Nov 22", 
-            "hometeam": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nickname": "Timberwolves"
-            }, 
-            "opponent": {
-                "abbr": "sac", 
-                "address": "One Sports Parkway, Sacramento, CA 95834", 
-                "arena": "Sleep Train Arena", 
-                "city": "Sacramento", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "sacramento-kings", 
-                "lat": 38.648005, 
-                "location": "Sacramento", 
-                "lon": -121.517077, 
-                "nickname": "Kings"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Target Center", 
-                "city": "Minneapolis"
-            }
-        }, 
-        {
-            "datetime": "2014-11-26T20:00:00-04:56", 
-            "fullDate": "Wed, Nov 26", 
-            "hometeam": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nickname": "Timberwolves"
-            }, 
-            "opponent": {
-                "abbr": "mil", 
-                "address": "1001 N. Fourth St., Milwaukee, WI 53203", 
-                "arena": "BMO Harris Bradley Center", 
-                "city": "Milwaukee", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "milwaukee-bucks", 
-                "lat": 43.0430094, 
-                "location": "Milwaukee", 
-                "lon": -87.9165562, 
-                "nickname": "Bucks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Target Center", 
-                "city": "Minneapolis"
-            }
-        }, 
-        {
-            "datetime": "2014-12-03T20:00:00-04:56", 
-            "fullDate": "Wed, Dec 3", 
-            "hometeam": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nickname": "Timberwolves"
-            }, 
-            "opponent": {
-                "abbr": "phi", 
-                "address": "3601 S. Broad St., Philadelphia, PA 19148", 
-                "arena": "Wells Fargo Center", 
-                "city": "Philadelphia", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "philadelphia-76ers", 
-                "lat": 39.9044734, 
-                "location": "Philadelphia", 
-                "lon": -75.1712574, 
-                "nickname": "76ers"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Target Center", 
-                "city": "Minneapolis"
-            }
-        }, 
-        {
-            "datetime": "2014-12-05T20:00:00-04:56", 
-            "fullDate": "Fri, Dec 5", 
-            "hometeam": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nickname": "Timberwolves"
-            }, 
-            "opponent": {
-                "abbr": "hou", 
-                "address": "1510 Polk St., Houston, TX 77002", 
-                "arena": "Toyota Center", 
-                "city": "Houston", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "houston-rockets", 
-                "lat": 29.7513984, 
-                "location": "Houston", 
-                "lon": -95.3621397, 
-                "nickname": "Rockets"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Target Center", 
-                "city": "Minneapolis"
-            }
-        }, 
-        {
             "datetime": "2014-12-08T20:00:00-04:56", 
             "fullDate": "Mon, Dec 8", 
             "hometeam": {
@@ -224,6 +14,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -237,6 +28,7 @@
                 "lat": 37.7515541, 
                 "location": "Golden State", 
                 "lon": -122.2015715, 
+                "nba_abbr": null, 
                 "nickname": "Warriors"
             }, 
             "tv": "Regional", 
@@ -259,6 +51,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -272,6 +65,7 @@
                 "lat": 45.5319834, 
                 "location": "Portland", 
                 "lon": -122.6678056, 
+                "nba_abbr": null, 
                 "nickname": "Trail Blazers"
             }, 
             "tv": "Regional", 
@@ -294,6 +88,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -307,6 +102,7 @@
                 "lat": 35.463391, 
                 "location": "Oklahoma City", 
                 "lon": -97.514594, 
+                "nba_abbr": null, 
                 "nickname": "Thunder"
             }, 
             "tv": "Regional", 
@@ -329,6 +125,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -342,6 +139,7 @@
                 "lat": 34.043125, 
                 "location": "Los Angeles", 
                 "lon": -118.267118, 
+                "nba_abbr": null, 
                 "nickname": "Lakers"
             }, 
             "tv": "Regional", 
@@ -364,6 +162,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -377,6 +176,7 @@
                 "lat": 39.764064, 
                 "location": "Indiana", 
                 "lon": -86.155507, 
+                "nba_abbr": null, 
                 "nickname": "Pacers"
             }, 
             "tv": "Regional", 
@@ -399,6 +199,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -412,6 +213,7 @@
                 "lat": 38.648005, 
                 "location": "Sacramento", 
                 "lon": -121.517077, 
+                "nba_abbr": null, 
                 "nickname": "Kings"
             }, 
             "tv": "Regional", 
@@ -434,6 +236,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -447,6 +250,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
+                "nba_abbr": null, 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
@@ -469,6 +273,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -482,6 +287,7 @@
                 "lat": 39.7483118, 
                 "location": "Denver", 
                 "lon": -105.0077534, 
+                "nba_abbr": null, 
                 "nickname": "Nuggets"
             }, 
             "tv": "Regional", 
@@ -504,6 +310,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -517,6 +324,7 @@
                 "lat": 33.4459, 
                 "location": "Phoenix", 
                 "lon": -112.071211, 
+                "nba_abbr": null, 
                 "nickname": "Suns"
             }, 
             "tv": "ESPN", 
@@ -539,6 +347,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -552,6 +361,7 @@
                 "lat": 29.4342371, 
                 "location": "San-Antonio", 
                 "lon": -98.433667, 
+                "nba_abbr": "sas", 
                 "nickname": "Spurs"
             }, 
             "tv": "Regional", 
@@ -574,6 +384,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -587,6 +398,7 @@
                 "lat": 32.7899544, 
                 "location": "Dallas", 
                 "lon": -96.8111569, 
+                "nba_abbr": null, 
                 "nickname": "Mavericks"
             }, 
             "tv": "Regional", 
@@ -609,6 +421,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -622,6 +435,7 @@
                 "lat": 29.9485576, 
                 "location": "New Orleans", 
                 "lon": -90.07661159999999, 
+                "nba_abbr": "nop", 
                 "nickname": "Pelicans"
             }, 
             "tv": "Regional", 
@@ -644,6 +458,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -657,6 +472,7 @@
                 "lat": 42.36617589999999, 
                 "location": "Boston", 
                 "lon": -71.0602624, 
+                "nba_abbr": null, 
                 "nickname": "Celtics"
             }, 
             "tv": "Regional", 
@@ -679,6 +495,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -692,6 +509,7 @@
                 "lat": 41.4967035, 
                 "location": "Cleveland", 
                 "lon": -81.6894825, 
+                "nba_abbr": null, 
                 "nickname": "Cavaliers"
             }, 
             "tv": "Regional", 
@@ -714,6 +532,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -727,6 +546,7 @@
                 "lat": 25.781232, 
                 "location": "Miami", 
                 "lon": -80.187805, 
+                "nba_abbr": null, 
                 "nickname": "Heat"
             }, 
             "tv": "Regional", 
@@ -749,6 +569,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -762,6 +583,7 @@
                 "lat": 35.136686, 
                 "location": "Memphis", 
                 "lon": -90.051885, 
+                "nba_abbr": null, 
                 "nickname": "Grizzlies"
             }, 
             "tv": "Regional", 
@@ -784,6 +606,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -797,6 +620,7 @@
                 "lat": 33.7570952, 
                 "location": "Atlanta", 
                 "lon": -84.3971653, 
+                "nba_abbr": null, 
                 "nickname": "Hawks"
             }, 
             "tv": "Regional", 
@@ -819,6 +643,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -832,6 +657,7 @@
                 "lat": 37.7515541, 
                 "location": "Golden State", 
                 "lon": -122.2015715, 
+                "nba_abbr": null, 
                 "nickname": "Warriors"
             }, 
             "tv": "Regional", 
@@ -854,6 +680,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -867,6 +694,7 @@
                 "lat": 33.4459, 
                 "location": "Phoenix", 
                 "lon": -112.071211, 
+                "nba_abbr": null, 
                 "nickname": "Suns"
             }, 
             "tv": "Regional", 
@@ -889,6 +717,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -902,6 +731,7 @@
                 "lat": 38.8975827, 
                 "location": "Washington", 
                 "lon": -77.0210553, 
+                "nba_abbr": null, 
                 "nickname": "Wizards"
             }, 
             "tv": "Regional", 
@@ -924,6 +754,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -937,6 +768,7 @@
                 "lat": 35.136686, 
                 "location": "Memphis", 
                 "lon": -90.051885, 
+                "nba_abbr": null, 
                 "nickname": "Grizzlies"
             }, 
             "tv": "Regional", 
@@ -959,6 +791,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -972,6 +805,7 @@
                 "lat": 34.043125, 
                 "location": "Los Angeles", 
                 "lon": -118.267118, 
+                "nba_abbr": null, 
                 "nickname": "Clippers"
             }, 
             "tv": "Regional", 
@@ -994,6 +828,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1007,6 +842,7 @@
                 "lat": 39.7483118, 
                 "location": "Denver", 
                 "lon": -105.0077534, 
+                "nba_abbr": null, 
                 "nickname": "Nuggets"
             }, 
             "tv": "Regional", 
@@ -1029,6 +865,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1042,6 +879,7 @@
                 "lat": 45.5319834, 
                 "location": "Portland", 
                 "lon": -122.6678056, 
+                "nba_abbr": null, 
                 "nickname": "Trail Blazers"
             }, 
             "tv": "Regional", 
@@ -1064,6 +902,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1077,6 +916,7 @@
                 "lat": 40.6834453, 
                 "location": "Brooklyn", 
                 "lon": -73.9760482, 
+                "nba_abbr": null, 
                 "nickname": "Nets"
             }, 
             "tv": "Regional", 
@@ -1099,6 +939,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1112,6 +953,7 @@
                 "lat": 35.2251392, 
                 "location": "Charlotte", 
                 "lon": -80.8406959, 
+                "nba_abbr": null, 
                 "nickname": "Hornets"
             }, 
             "tv": "Regional", 
@@ -1134,6 +976,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1147,6 +990,7 @@
                 "lat": 34.043125, 
                 "location": "Los Angeles", 
                 "lon": -118.267118, 
+                "nba_abbr": null, 
                 "nickname": "Lakers"
             }, 
             "tv": "Regional", 
@@ -1169,6 +1013,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1182,6 +1027,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
+                "nba_abbr": null, 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
@@ -1204,6 +1050,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1217,6 +1064,7 @@
                 "lat": 43.644067, 
                 "location": "Toronto", 
                 "lon": -79.3784331, 
+                "nba_abbr": null, 
                 "nickname": "Raptors"
             }, 
             "tv": "Regional", 
@@ -1239,6 +1087,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1252,6 +1101,7 @@
                 "lat": 28.539832, 
                 "location": "Orlando", 
                 "lon": -81.3840452, 
+                "nba_abbr": null, 
                 "nickname": "Magic"
             }, 
             "tv": "Regional", 
@@ -1274,6 +1124,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1287,6 +1138,7 @@
                 "lat": 29.9485576, 
                 "location": "New Orleans", 
                 "lon": -90.07661159999999, 
+                "nba_abbr": "nop", 
                 "nickname": "Pelicans"
             }, 
             "tv": "Regional", 
@@ -1309,6 +1161,7 @@
                 "lat": 44.979548, 
                 "location": "Minnesota", 
                 "lon": -93.27615899999999, 
+                "nba_abbr": null, 
                 "nickname": "Timberwolves"
             }, 
             "opponent": {
@@ -1322,6 +1175,7 @@
                 "lat": 35.463391, 
                 "location": "Oklahoma City", 
                 "lon": -97.514594, 
+                "nba_abbr": null, 
                 "nickname": "Thunder"
             }, 
             "tv": "Regional", 
@@ -1342,6 +1196,7 @@
         "lat": 44.979548, 
         "location": "Minnesota", 
         "lon": -93.27615899999999, 
+        "nba_abbr": null, 
         "nickname": "Timberwolves"
     }
 }
