@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-09T20:00:00-04:56", 
-            "fullDate": "Tue, Dec 9", 
-            "hometeam": {
-                "abbr": "okc", 
-                "address": "100 W. Reno Ave., Oklahoma City, OK 73102", 
-                "arena": "Chesapeake Energy Arena", 
-                "city": "Oklahoma City", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "oklahoma-city-thunder", 
-                "lat": 35.463391, 
-                "location": "Oklahoma City", 
-                "lon": -97.514594, 
-                "nba_abbr": null, 
-                "nickname": "Thunder"
-            }, 
-            "opponent": {
-                "abbr": "mil", 
-                "address": "1001 N. Fourth St., Milwaukee, WI 53203", 
-                "arena": "BMO Harris Bradley Center", 
-                "city": "Milwaukee", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "milwaukee-bucks", 
-                "lat": 43.0430094, 
-                "location": "Milwaukee", 
-                "lon": -87.9165562, 
-                "nba_abbr": null, 
-                "nickname": "Bucks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Chesapeake Energy Arena", 
-                "city": "Oklahoma City"
-            }
-        }, 
-        {
             "datetime": "2014-12-11T20:00:00-04:56", 
             "fullDate": "Thu, Dec 11", 
             "hometeam": {
@@ -324,7 +287,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

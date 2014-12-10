@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-08T19:00:00-04:56", 
-            "fullDate": "Mon, Dec 8", 
-            "hometeam": {
-                "abbr": "ind", 
-                "address": "125 S. Pennsylvania St., Indianapolis, IN 46204", 
-                "arena": "Bankers Life Fieldhouse", 
-                "city": "Indianapolis", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "indiana-pacers", 
-                "lat": 39.764064, 
-                "location": "Indiana", 
-                "lon": -86.155507, 
-                "nba_abbr": null, 
-                "nickname": "Pacers"
-            }, 
-            "opponent": {
-                "abbr": "atl", 
-                "address": "One Philips Drive, Atlanta, GA 30303", 
-                "arena": "Philips Arena", 
-                "city": "Atlanta", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "atlanta-hawks", 
-                "lat": 33.7570952, 
-                "location": "Atlanta", 
-                "lon": -84.3971653, 
-                "nba_abbr": null, 
-                "nickname": "Hawks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Bankers Life Fieldhouse", 
-                "city": "Indianapolis"
-            }
-        }, 
-        {
             "datetime": "2014-12-10T19:00:00-04:56", 
             "fullDate": "Wed, Dec 10", 
             "hometeam": {

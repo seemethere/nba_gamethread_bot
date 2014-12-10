@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-06T20:00:00-04:56", 
-            "fullDate": "Sat, Dec 6", 
-            "hometeam": {
-                "abbr": "hou", 
-                "address": "1510 Polk St., Houston, TX 77002", 
-                "arena": "Toyota Center", 
-                "city": "Houston", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "houston-rockets", 
-                "lat": 29.7513984, 
-                "location": "Houston", 
-                "lon": -95.3621397, 
-                "nba_abbr": null, 
-                "nickname": "Rockets"
-            }, 
-            "opponent": {
-                "abbr": "phx", 
-                "address": "201 E. Jefferson St., Phoenix, AZ 85004", 
-                "arena": "US Airways Center", 
-                "city": "Phoenix", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "phoenix-suns", 
-                "lat": 33.4459, 
-                "location": "Phoenix", 
-                "lon": -112.071211, 
-                "nba_abbr": null, 
-                "nickname": "Suns"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Toyota Center", 
-                "city": "Houston"
-            }
-        }, 
-        {
             "datetime": "2014-12-13T20:00:00-04:56", 
             "fullDate": "Sat, Dec 13", 
             "hometeam": {
@@ -324,7 +287,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
@@ -1138,7 +1101,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

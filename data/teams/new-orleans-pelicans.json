@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-09T20:00:00-04:56", 
-            "fullDate": "Tue, Dec 9", 
-            "hometeam": {
-                "abbr": "no", 
-                "address": "1501 Girod St., New Orleans, LA 70113", 
-                "arena": "New Orleans Arena", 
-                "city": "New Orleans", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "new-orleans-pelicans", 
-                "lat": 29.9485576, 
-                "location": "New Orleans", 
-                "lon": -90.07661159999999, 
-                "nba_abbr": "nop", 
-                "nickname": "Pelicans"
-            }, 
-            "opponent": {
-                "abbr": "ny", 
-                "address": "Four Pennsylvania Plaza, New York, NY 10001", 
-                "arena": "Madison Square Garden", 
-                "city": "New York City", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "new-york-knicks", 
-                "lat": 40.7508707, 
-                "location": "New York", 
-                "lon": -73.99426609999999, 
-                "nba_abbr": "nyk", 
-                "nickname": "Knicks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "New Orleans Arena", 
-                "city": "New Orleans"
-            }
-        }, 
-        {
             "datetime": "2014-12-12T20:00:00-04:56", 
             "fullDate": "Fri, Dec 12", 
             "hometeam": {
@@ -139,7 +102,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
@@ -694,7 +657,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

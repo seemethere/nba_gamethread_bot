@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-08T20:00:00-04:56", 
-            "fullDate": "Mon, Dec 8", 
-            "hometeam": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nba_abbr": null, 
-                "nickname": "Timberwolves"
-            }, 
-            "opponent": {
-                "abbr": "gs", 
-                "address": "7000 Coliseum Way, Oakland, CA 94621", 
-                "arena": "Oracle Arena", 
-                "city": "Oakland", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "golden-state-warriors", 
-                "lat": 37.7515541, 
-                "location": "Golden State", 
-                "lon": -122.2015715, 
-                "nba_abbr": null, 
-                "nickname": "Warriors"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Target Center", 
-                "city": "Minneapolis"
-            }
-        }, 
-        {
             "datetime": "2014-12-10T20:00:00-04:56", 
             "fullDate": "Wed, Dec 10", 
             "hometeam": {
@@ -250,7 +213,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
@@ -1027,7 +990,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

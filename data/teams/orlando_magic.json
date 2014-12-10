@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-10T19:00:00-04:56", 
-            "fullDate": "Wed, Dec 10", 
-            "hometeam": {
-                "abbr": "orl", 
-                "address": "400 W. Church St., Orlando, FL 32801", 
-                "arena": "Amway Center", 
-                "city": "Orlando", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "orlando_magic", 
-                "lat": 28.539832, 
-                "location": "Orlando", 
-                "lon": -81.3840452, 
-                "nba_abbr": null, 
-                "nickname": "Magic"
-            }, 
-            "opponent": {
-                "abbr": "wsh", 
-                "address": "601 F St. N.W., Washington, D.C. 20004", 
-                "arena": "Verizon Center", 
-                "city": "Washington D.C.", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "washington-wizards", 
-                "lat": 38.8975827, 
-                "location": "Washington", 
-                "lon": -77.0210553, 
-                "nba_abbr": null, 
-                "nickname": "Wizards"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Amway Center", 
-                "city": "Orlando"
-            }
-        }, 
-        {
             "datetime": "2014-12-13T19:00:00-04:56", 
             "fullDate": "Sat, Dec 13", 
             "hometeam": {
@@ -102,7 +65,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

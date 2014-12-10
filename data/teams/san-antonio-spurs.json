@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-06T20:30:00-04:56", 
-            "fullDate": "Sat, Dec 6", 
-            "hometeam": {
-                "abbr": "sa", 
-                "address": "One AT&T Center Parkway, San Antonio, TX 78219", 
-                "arena": "AT&T Center", 
-                "city": "San Antonio", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "san-antonio-spurs", 
-                "lat": 29.4342371, 
-                "location": "San-Antonio", 
-                "lon": -98.433667, 
-                "nba_abbr": "sas", 
-                "nickname": "Spurs"
-            }, 
-            "opponent": {
-                "abbr": "min", 
-                "address": "600 First Ave. North, Minneapolis, MN 55403", 
-                "arena": "Target Center", 
-                "city": "Minneapolis", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "minnesota-timberwolves", 
-                "lat": 44.979548, 
-                "location": "Minnesota", 
-                "lon": -93.27615899999999, 
-                "nba_abbr": null, 
-                "nickname": "Timberwolves"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "AT&T Center", 
-                "city": "San Antonio"
-            }
-        }, 
-        {
             "datetime": "2014-12-10T20:30:00-04:56", 
             "fullDate": "Wed, Dec 10", 
             "hometeam": {
@@ -509,7 +472,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

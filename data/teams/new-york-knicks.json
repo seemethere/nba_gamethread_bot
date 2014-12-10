@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-07T19:30:00-04:56", 
-            "fullDate": "Sun, Dec 7", 
-            "hometeam": {
-                "abbr": "ny", 
-                "address": "Four Pennsylvania Plaza, New York, NY 10001", 
-                "arena": "Madison Square Garden", 
-                "city": "New York City", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "new-york-knicks", 
-                "lat": 40.7508707, 
-                "location": "New York", 
-                "lon": -73.99426609999999, 
-                "nba_abbr": "nyk", 
-                "nickname": "Knicks"
-            }, 
-            "opponent": {
-                "abbr": "por", 
-                "address": "One Center Court, Portland, OR 97227", 
-                "arena": "Moda Center", 
-                "city": "Portland", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "portland-trail-blazers", 
-                "lat": 45.5319834, 
-                "location": "Portland", 
-                "lon": -122.6678056, 
-                "nba_abbr": null, 
-                "nickname": "Trail Blazers"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Madison Square Garden", 
-                "city": "New York City"
-            }
-        }, 
-        {
             "datetime": "2014-12-14T19:30:00-04:56", 
             "fullDate": "Sun, Dec 14", 
             "hometeam": {
@@ -105,7 +68,7 @@
                 "nba_abbr": null, 
                 "nickname": "Mavericks"
             }, 
-            "tv": "ESPN", 
+            "tv": "Regional", 
             "where": {
                 "arena": "Madison Square Garden", 
                 "city": "New York City"

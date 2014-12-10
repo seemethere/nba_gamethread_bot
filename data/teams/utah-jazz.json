@@ -1,80 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-05T21:00:00-04:56", 
-            "fullDate": "Fri, Dec 5", 
-            "hometeam": {
-                "abbr": "utah", 
-                "address": "301 W. South Temple St., Salt Lake City, UT 84101", 
-                "arena": "EnergySolutions Arena", 
-                "city": "Salt Lake City", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "utah-jazz", 
-                "lat": 40.768268, 
-                "location": "Utah", 
-                "lon": -111.901087, 
-                "nba_abbr": null, 
-                "nickname": "Jazz"
-            }, 
-            "opponent": {
-                "abbr": "orl", 
-                "address": "400 W. Church St., Orlando, FL 32801", 
-                "arena": "Amway Center", 
-                "city": "Orlando", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "orlando_magic", 
-                "lat": 28.539832, 
-                "location": "Orlando", 
-                "lon": -81.3840452, 
-                "nba_abbr": null, 
-                "nickname": "Magic"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "EnergySolutions Arena", 
-                "city": "Salt Lake City"
-            }
-        }, 
-        {
-            "datetime": "2014-12-09T21:00:00-04:56", 
-            "fullDate": "Tue, Dec 9", 
-            "hometeam": {
-                "abbr": "utah", 
-                "address": "301 W. South Temple St., Salt Lake City, UT 84101", 
-                "arena": "EnergySolutions Arena", 
-                "city": "Salt Lake City", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "utah-jazz", 
-                "lat": 40.768268, 
-                "location": "Utah", 
-                "lon": -111.901087, 
-                "nba_abbr": null, 
-                "nickname": "Jazz"
-            }, 
-            "opponent": {
-                "abbr": "sa", 
-                "address": "One AT&T Center Parkway, San Antonio, TX 78219", 
-                "arena": "AT&T Center", 
-                "city": "San Antonio", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "san-antonio-spurs", 
-                "lat": 29.4342371, 
-                "location": "San-Antonio", 
-                "lon": -98.433667, 
-                "nba_abbr": "sas", 
-                "nickname": "Spurs"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "EnergySolutions Arena", 
-                "city": "Salt Lake City"
-            }
-        }, 
-        {
             "datetime": "2014-12-12T21:00:00-04:56", 
             "fullDate": "Fri, Dec 12", 
             "hometeam": {
@@ -88,7 +14,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -125,7 +51,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -162,7 +88,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -199,7 +125,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -236,7 +162,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -273,7 +199,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -310,7 +236,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -347,7 +273,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -384,7 +310,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -421,7 +347,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -458,7 +384,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -495,7 +421,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -532,7 +458,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -569,7 +495,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -606,7 +532,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -643,7 +569,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -680,7 +606,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -717,7 +643,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -754,7 +680,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -791,7 +717,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -828,7 +754,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -865,7 +791,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -902,7 +828,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -939,7 +865,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -976,7 +902,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -1013,7 +939,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -1050,7 +976,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -1087,7 +1013,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -1124,7 +1050,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "opponent": {
@@ -1159,7 +1085,7 @@
         "lat": 40.768268, 
         "location": "Utah", 
         "lon": -111.901087, 
-        "nba_abbr": null, 
+        "nba_abbr": "uta", 
         "nickname": "Jazz"
     }
 }

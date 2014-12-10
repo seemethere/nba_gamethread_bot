@@ -1,80 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-05T19:30:00-04:56", 
-            "fullDate": "Fri, Dec 5", 
-            "hometeam": {
-                "abbr": "bkn", 
-                "address": "620 Atlantic Avenue, Brooklyn, NY 112", 
-                "arena": "Barclays Center", 
-                "city": "Brooklyn", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "brooklyn-nets", 
-                "lat": 40.6834453, 
-                "location": "Brooklyn", 
-                "lon": -73.9760482, 
-                "nba_abbr": null, 
-                "nickname": "Nets"
-            }, 
-            "opponent": {
-                "abbr": "atl", 
-                "address": "One Philips Drive, Atlanta, GA 30303", 
-                "arena": "Philips Arena", 
-                "city": "Atlanta", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "atlanta-hawks", 
-                "lat": 33.7570952, 
-                "location": "Atlanta", 
-                "lon": -84.3971653, 
-                "nba_abbr": null, 
-                "nickname": "Hawks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Barclays Center", 
-                "city": "Brooklyn"
-            }
-        }, 
-        {
-            "datetime": "2014-12-08T19:30:00-04:56", 
-            "fullDate": "Mon, Dec 8", 
-            "hometeam": {
-                "abbr": "bkn", 
-                "address": "620 Atlantic Avenue, Brooklyn, NY 112", 
-                "arena": "Barclays Center", 
-                "city": "Brooklyn", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "brooklyn-nets", 
-                "lat": 40.6834453, 
-                "location": "Brooklyn", 
-                "lon": -73.9760482, 
-                "nba_abbr": null, 
-                "nickname": "Nets"
-            }, 
-            "opponent": {
-                "abbr": "cle", 
-                "address": "One Center Court, Cleveland, OH 44115", 
-                "arena": "Quicken Loans Arena", 
-                "city": "Cleveland", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "cleveland-cavaliers", 
-                "lat": 41.4967035, 
-                "location": "Cleveland", 
-                "lon": -81.6894825, 
-                "nba_abbr": null, 
-                "nickname": "Cavaliers"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Barclays Center", 
-                "city": "Brooklyn"
-            }
-        }, 
-        {
             "datetime": "2014-12-12T19:30:00-04:56", 
             "fullDate": "Fri, Dec 12", 
             "hometeam": {
@@ -805,7 +731,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "NBATV", 

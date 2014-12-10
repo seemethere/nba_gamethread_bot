@@ -1,80 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-06T20:00:00-04:56", 
-            "fullDate": "Sat, Dec 6", 
-            "hometeam": {
-                "abbr": "chi", 
-                "address": "1901 W. Madison St., Chicago, IL 60612", 
-                "arena": "United Center", 
-                "city": "Chicago", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "chicago-bulls", 
-                "lat": 41.8812526, 
-                "location": "Chicago", 
-                "lon": -87.6741557, 
-                "nba_abbr": null, 
-                "nickname": "Bulls"
-            }, 
-            "opponent": {
-                "abbr": "gs", 
-                "address": "7000 Coliseum Way, Oakland, CA 94621", 
-                "arena": "Oracle Arena", 
-                "city": "Oakland", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "golden-state-warriors", 
-                "lat": 37.7515541, 
-                "location": "Golden State", 
-                "lon": -122.2015715, 
-                "nba_abbr": null, 
-                "nickname": "Warriors"
-            }, 
-            "tv": "NBATV", 
-            "where": {
-                "arena": "United Center", 
-                "city": "Chicago"
-            }
-        }, 
-        {
-            "datetime": "2014-12-10T20:00:00-04:56", 
-            "fullDate": "Wed, Dec 10", 
-            "hometeam": {
-                "abbr": "chi", 
-                "address": "1901 W. Madison St., Chicago, IL 60612", 
-                "arena": "United Center", 
-                "city": "Chicago", 
-                "conference": "East", 
-                "division": "Central", 
-                "full_name": "chicago-bulls", 
-                "lat": 41.8812526, 
-                "location": "Chicago", 
-                "lon": -87.6741557, 
-                "nba_abbr": null, 
-                "nickname": "Bulls"
-            }, 
-            "opponent": {
-                "abbr": "bkn", 
-                "address": "620 Atlantic Avenue, Brooklyn, NY 112", 
-                "arena": "Barclays Center", 
-                "city": "Brooklyn", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "brooklyn-nets", 
-                "lat": 40.6834453, 
-                "location": "Brooklyn", 
-                "lon": -73.9760482, 
-                "nba_abbr": null, 
-                "nickname": "Nets"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "United Center", 
-                "city": "Chicago"
-            }
-        }, 
-        {
             "datetime": "2014-12-12T19:00:00-04:56", 
             "fullDate": "Fri, Dec 12", 
             "hometeam": {
@@ -435,7 +361,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

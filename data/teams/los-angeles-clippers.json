@@ -1,80 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-06T22:30:00-04:56", 
-            "fullDate": "Sat, Dec 6", 
-            "hometeam": {
-                "abbr": "lac", 
-                "address": "1111 S. Figueroa St., Los Angeles, CA 90015", 
-                "arena": "Staples Center", 
-                "city": "Los Angeles", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "los-angeles-clippers", 
-                "lat": 34.043125, 
-                "location": "Los Angeles", 
-                "lon": -118.267118, 
-                "nba_abbr": null, 
-                "nickname": "Clippers"
-            }, 
-            "opponent": {
-                "abbr": "no", 
-                "address": "1501 Girod St., New Orleans, LA 70113", 
-                "arena": "New Orleans Arena", 
-                "city": "New Orleans", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "new-orleans-pelicans", 
-                "lat": 29.9485576, 
-                "location": "New Orleans", 
-                "lon": -90.07661159999999, 
-                "nba_abbr": "nop", 
-                "nickname": "Pelicans"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Staples Center", 
-                "city": "Los Angeles"
-            }
-        }, 
-        {
-            "datetime": "2014-12-08T22:30:00-04:56", 
-            "fullDate": "Mon, Dec 8", 
-            "hometeam": {
-                "abbr": "lac", 
-                "address": "1111 S. Figueroa St., Los Angeles, CA 90015", 
-                "arena": "Staples Center", 
-                "city": "Los Angeles", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "los-angeles-clippers", 
-                "lat": 34.043125, 
-                "location": "Los Angeles", 
-                "lon": -118.267118, 
-                "nba_abbr": null, 
-                "nickname": "Clippers"
-            }, 
-            "opponent": {
-                "abbr": "phx", 
-                "address": "201 E. Jefferson St., Phoenix, AZ 85004", 
-                "arena": "US Airways Center", 
-                "city": "Phoenix", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "phoenix-suns", 
-                "lat": 33.4459, 
-                "location": "Phoenix", 
-                "lon": -112.071211, 
-                "nba_abbr": null, 
-                "nickname": "Suns"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Staples Center", 
-                "city": "Los Angeles"
-            }
-        }, 
-        {
             "datetime": "2014-12-15T22:30:00-04:56", 
             "fullDate": "Mon, Dec 15", 
             "hometeam": {
@@ -287,7 +213,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

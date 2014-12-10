@@ -1,80 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-05T19:00:00-04:56", 
-            "fullDate": "Fri, Dec 5", 
-            "hometeam": {
-                "abbr": "cha", 
-                "address": "330 E. Trade St., Charlotte, NC 28202", 
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "charlotte-hornets", 
-                "lat": 35.2251392, 
-                "location": "Charlotte", 
-                "lon": -80.8406959, 
-                "nba_abbr": null, 
-                "nickname": "Hornets"
-            }, 
-            "opponent": {
-                "abbr": "ny", 
-                "address": "Four Pennsylvania Plaza, New York, NY 10001", 
-                "arena": "Madison Square Garden", 
-                "city": "New York City", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "new-york-knicks", 
-                "lat": 40.7508707, 
-                "location": "New York", 
-                "lon": -73.99426609999999, 
-                "nba_abbr": "nyk", 
-                "nickname": "Knicks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte"
-            }
-        }, 
-        {
-            "datetime": "2014-12-10T19:00:00-04:56", 
-            "fullDate": "Wed, Dec 10", 
-            "hometeam": {
-                "abbr": "cha", 
-                "address": "330 E. Trade St., Charlotte, NC 28202", 
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "charlotte-hornets", 
-                "lat": 35.2251392, 
-                "location": "Charlotte", 
-                "lon": -80.8406959, 
-                "nba_abbr": null, 
-                "nickname": "Hornets"
-            }, 
-            "opponent": {
-                "abbr": "bos", 
-                "address": "100 Legends Way, Boston, MA 02114", 
-                "arena": "TD Garden", 
-                "city": "Boston", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "boston-celtics", 
-                "lat": 42.36617589999999, 
-                "location": "Boston", 
-                "lon": -71.0602624, 
-                "nba_abbr": null, 
-                "nickname": "Celtics"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Time Warner Cable Arena", 
-                "city": "Charlotte"
-            }
-        }, 
-        {
             "datetime": "2014-12-13T19:00:00-04:56", 
             "fullDate": "Sat, Dec 13", 
             "hometeam": {
@@ -176,7 +102,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

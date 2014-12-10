@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-10T22:30:00-04:56", 
-            "fullDate": "Wed, Dec 10", 
-            "hometeam": {
-                "abbr": "gs", 
-                "address": "7000 Coliseum Way, Oakland, CA 94621", 
-                "arena": "Oracle Arena", 
-                "city": "Oakland", 
-                "conference": "West", 
-                "division": "Pacific", 
-                "full_name": "golden-state-warriors", 
-                "lat": 37.7515541, 
-                "location": "Golden State", 
-                "lon": -122.2015715, 
-                "nba_abbr": null, 
-                "nickname": "Warriors"
-            }, 
-            "opponent": {
-                "abbr": "hou", 
-                "address": "1510 Polk St., Houston, TX 77002", 
-                "arena": "Toyota Center", 
-                "city": "Houston", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "houston-rockets", 
-                "lat": 29.7513984, 
-                "location": "Houston", 
-                "lon": -95.3621397, 
-                "nba_abbr": null, 
-                "nickname": "Rockets"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Oracle Arena", 
-                "city": "Oakland"
-            }
-        }, 
-        {
             "datetime": "2014-12-18T22:30:00-04:56", 
             "fullDate": "Thu, Dec 18", 
             "hometeam": {
@@ -990,7 +953,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

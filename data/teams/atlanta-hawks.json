@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-07T15:30:00-04:56", 
-            "fullDate": "Sun, Dec 7", 
-            "hometeam": {
-                "abbr": "atl", 
-                "address": "One Philips Drive, Atlanta, GA 30303", 
-                "arena": "Philips Arena", 
-                "city": "Atlanta", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "atlanta-hawks", 
-                "lat": 33.7570952, 
-                "location": "Atlanta", 
-                "lon": -84.3971653, 
-                "nba_abbr": null, 
-                "nickname": "Hawks"
-            }, 
-            "opponent": {
-                "abbr": "den", 
-                "address": "1000 Chopper Circle, Denver, CO 80204", 
-                "arena": "Pepsi Center", 
-                "city": "Denver", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "denver-nuggets", 
-                "lat": 39.7483118, 
-                "location": "Denver", 
-                "lon": -105.0077534, 
-                "nba_abbr": null, 
-                "nickname": "Nuggets"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Philips Arena", 
-                "city": "Atlanta"
-            }
-        }, 
-        {
             "datetime": "2014-12-10T19:30:00-04:56", 
             "fullDate": "Wed, Dec 10", 
             "hometeam": {

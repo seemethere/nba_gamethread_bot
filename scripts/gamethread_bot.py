@@ -12,6 +12,8 @@ teams_file = open('../data/teams.json').read()
 teams_json = json.loads(teams_file)
 teams = teams_json['teams']
 SUBREDDIT = 'seemethere'
+body_template=open('../data/templates/body.txt').read()
+refresh_rate = 3 #in minutes
 running = True
 
 def getCurrent():
@@ -69,6 +71,9 @@ def generate_title(game):
                                  hloss=home_rec[1],
                                  date=date)
 
+def generate_body(game):
+    est = game[datetime][11:19]
+
 def post_GameThread(games, redt):
     print "\nStarting soon: "
     for game in games:
@@ -92,9 +97,9 @@ def get_record(team):
 
 def get_abbr(team):
     if team['nba_abbr'] is not None:
-        return team['nba_abbr'].uppercase()
+        return str(team['nba_abbr']).upper()
     else:
-        return['abbr'].uppercase()
+        return str(team['abbr']).upper()
 
 def get_nba_page(game):
     year = game['datetime'][0:4]
@@ -138,18 +143,18 @@ if __name__ == '__main__':
                                                                     time=game['datetime'][11:19])
         starting_games, todays_games = compareTimes(todays_games, time)
         if starting_games is not None:
-            post_GameThread(starting_games)
+            post_GameThread(starting_games, redt)
         else:
             print "\nNo games starting soon!"
-        print "Sleeping for 30 minutes..."
-        sleep(600)
+        print "Sleeping for {0} minutes...".format(refresh_rate)
+        sleep(refresh_rate*60/3)
         date, time = getCurrent()
         print "Current Date: {0}\tCurrent Time: {1}".format(date.date(), time)
-        print "Still sleeping... 20 minutes left!"
-        sleep(600)
+        print "Still sleeping... {0} minutes left!".format(refresh_rate*2/3)
+        sleep(refresh_rate*60/3)
         date, time = getCurrent()
         print "Current Date: {0}\tCurrent Time: {1}".format(date.date(), time)
-        print "Still sleeping... 10 minutes left!"
-        sleep(600)
+        print "Still sleeping... {0} minutes left!".format(refresh_rate*1/3)
+        sleep(refresh_rate*60/3)
         print "Going back to work!"
 

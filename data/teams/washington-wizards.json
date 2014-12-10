@@ -1,80 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-05T19:00:00-04:56", 
-            "fullDate": "Fri, Dec 5", 
-            "hometeam": {
-                "abbr": "wsh", 
-                "address": "601 F St. N.W., Washington, D.C. 20004", 
-                "arena": "Verizon Center", 
-                "city": "Washington D.C.", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "washington-wizards", 
-                "lat": 38.8975827, 
-                "location": "Washington", 
-                "lon": -77.0210553, 
-                "nba_abbr": null, 
-                "nickname": "Wizards"
-            }, 
-            "opponent": {
-                "abbr": "den", 
-                "address": "1000 Chopper Circle, Denver, CO 80204", 
-                "arena": "Pepsi Center", 
-                "city": "Denver", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "denver-nuggets", 
-                "lat": 39.7483118, 
-                "location": "Denver", 
-                "lon": -105.0077534, 
-                "nba_abbr": null, 
-                "nickname": "Nuggets"
-            }, 
-            "tv": "NBATV", 
-            "where": {
-                "arena": "Verizon Center", 
-                "city": "Washington D.C."
-            }
-        }, 
-        {
-            "datetime": "2014-12-08T19:00:00-04:56", 
-            "fullDate": "Mon, Dec 8", 
-            "hometeam": {
-                "abbr": "wsh", 
-                "address": "601 F St. N.W., Washington, D.C. 20004", 
-                "arena": "Verizon Center", 
-                "city": "Washington D.C.", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "washington-wizards", 
-                "lat": 38.8975827, 
-                "location": "Washington", 
-                "lon": -77.0210553, 
-                "nba_abbr": null, 
-                "nickname": "Wizards"
-            }, 
-            "opponent": {
-                "abbr": "bos", 
-                "address": "100 Legends Way, Boston, MA 02114", 
-                "arena": "TD Garden", 
-                "city": "Boston", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "boston-celtics", 
-                "lat": 42.36617589999999, 
-                "location": "Boston", 
-                "lon": -71.0602624, 
-                "nba_abbr": null, 
-                "nickname": "Celtics"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "Verizon Center", 
-                "city": "Washington D.C."
-            }
-        }, 
-        {
             "datetime": "2014-12-12T19:00:00-04:56", 
             "fullDate": "Fri, Dec 12", 
             "hometeam": {
@@ -139,7 +65,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

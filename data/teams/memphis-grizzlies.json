@@ -1,80 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-07T18:00:00-04:56", 
-            "fullDate": "Sun, Dec 7", 
-            "hometeam": {
-                "abbr": "mem", 
-                "address": "191 Beale St., Memphis, TN 38103", 
-                "arena": "FedExForum", 
-                "city": "Memphis", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "memphis-grizzlies", 
-                "lat": 35.136686, 
-                "location": "Memphis", 
-                "lon": -90.051885, 
-                "nba_abbr": null, 
-                "nickname": "Grizzlies"
-            }, 
-            "opponent": {
-                "abbr": "mia", 
-                "address": "601 Biscayne Blvd., Miami, FL 33132", 
-                "arena": "AmericanAirlines Arena", 
-                "city": "Miami", 
-                "conference": "East", 
-                "division": "Southeast", 
-                "full_name": "miami-heat", 
-                "lat": 25.781232, 
-                "location": "Miami", 
-                "lon": -80.187805, 
-                "nba_abbr": null, 
-                "nickname": "Heat"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "FedExForum", 
-                "city": "Memphis"
-            }
-        }, 
-        {
-            "datetime": "2014-12-09T20:00:00-04:56", 
-            "fullDate": "Tue, Dec 9", 
-            "hometeam": {
-                "abbr": "mem", 
-                "address": "191 Beale St., Memphis, TN 38103", 
-                "arena": "FedExForum", 
-                "city": "Memphis", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "memphis-grizzlies", 
-                "lat": 35.136686, 
-                "location": "Memphis", 
-                "lon": -90.051885, 
-                "nba_abbr": null, 
-                "nickname": "Grizzlies"
-            }, 
-            "opponent": {
-                "abbr": "dal", 
-                "address": "2500 Victory Ave., Dallas, TX 75219", 
-                "arena": "American Airlines Center", 
-                "city": "Dallas", 
-                "conference": "West", 
-                "division": "Southwest", 
-                "full_name": "dallas-mavericks", 
-                "lat": 32.7899544, 
-                "location": "Dallas", 
-                "lon": -96.8111569, 
-                "nba_abbr": null, 
-                "nickname": "Mavericks"
-            }, 
-            "tv": "Regional", 
-            "where": {
-                "arena": "FedExForum", 
-                "city": "Memphis"
-            }
-        }, 
-        {
             "datetime": "2014-12-12T20:00:00-04:56", 
             "fullDate": "Fri, Dec 12", 
             "hometeam": {
@@ -213,7 +139,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
@@ -768,7 +694,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 

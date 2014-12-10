@@ -1,43 +1,6 @@
 {
     "schedule": [
         {
-            "datetime": "2014-12-05T19:00:00-04:56", 
-            "fullDate": "Fri, Dec 5", 
-            "hometeam": {
-                "abbr": "phi", 
-                "address": "3601 S. Broad St., Philadelphia, PA 19148", 
-                "arena": "Wells Fargo Center", 
-                "city": "Philadelphia", 
-                "conference": "East", 
-                "division": "Atlantic", 
-                "full_name": "philadelphia-76ers", 
-                "lat": 39.9044734, 
-                "location": "Philadelphia", 
-                "lon": -75.1712574, 
-                "nba_abbr": null, 
-                "nickname": "76ers"
-            }, 
-            "opponent": {
-                "abbr": "okc", 
-                "address": "100 W. Reno Ave., Oklahoma City, OK 73102", 
-                "arena": "Chesapeake Energy Arena", 
-                "city": "Oklahoma City", 
-                "conference": "West", 
-                "division": "Northwest", 
-                "full_name": "oklahoma-city-thunder", 
-                "lat": 35.463391, 
-                "location": "Oklahoma City", 
-                "lon": -97.514594, 
-                "nba_abbr": null, 
-                "nickname": "Thunder"
-            }, 
-            "tv": "NBATV", 
-            "where": {
-                "arena": "Wells Fargo Center", 
-                "city": "Philadelphia"
-            }
-        }, 
-        {
             "datetime": "2014-12-13T19:30:00-04:56", 
             "fullDate": "Sat, Dec 13", 
             "hometeam": {
@@ -731,7 +694,7 @@
                 "lat": 40.768268, 
                 "location": "Utah", 
                 "lon": -111.901087, 
-                "nba_abbr": null, 
+                "nba_abbr": "uta", 
                 "nickname": "Jazz"
             }, 
             "tv": "Regional", 
