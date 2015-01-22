@@ -3,7 +3,6 @@
     {
       "division": "Atlantic",
       "abbr": "bos",
-      "nba_abbr": null,
       "full_name": "boston-celtics",
       "address": "100 Legends Way, Boston, MA 02114",
       "lat": 42.36617589999999,
@@ -17,7 +16,6 @@
     {
       "division": "Atlantic",
       "abbr": "bkn",
-      "nba_abbr": null,
       "full_name": "brooklyn-nets",
       "address": "620 Atlantic Avenue, Brooklyn, NY 112",
       "lat": 40.6834453,
@@ -30,8 +28,7 @@
     },
     {
       "division": "Atlantic",
-      "abbr": "ny",
-      "nba_abbr": "nyk",
+      "abbr": "nyk",
       "full_name": "new-york-knicks",
       "address": "Four Pennsylvania Plaza, New York, NY 10001",
       "lat": 40.7508707,
@@ -45,7 +42,6 @@
     {
       "division": "Atlantic",
       "abbr": "phi",
-      "nba_abbr": null,
       "full_name": "philadelphia-76ers",
       "address": "3601 S. Broad St., Philadelphia, PA 19148",
       "lat": 39.9044734,
@@ -59,7 +55,6 @@
     {
       "division": "Atlantic",
       "abbr": "tor",
-      "nba_abbr": null,
       "full_name": "toronto-raptors",
       "address": "40 Bay St., Toronto, ON M5J 2X2",
       "lat": 43.644067,
@@ -72,8 +67,7 @@
     },
     {
       "division": "Pacific",
-      "abbr": "gs",
-      "nba_abbr": null,
+      "abbr": "gsw",
       "full_name": "golden-state-warriors",
       "address": "7000 Coliseum Way, Oakland, CA 94621",
       "lat": 37.7515541,
@@ -87,7 +81,6 @@
     {
       "division": "Pacific",
       "abbr": "lac",
-      "nba_abbr": null,
       "full_name": "los-angeles-clippers",
       "address": "1111 S. Figueroa St., Los Angeles, CA 90015",
       "lat": 34.043125,
@@ -101,7 +94,6 @@
     {
       "division": "Pacific",
       "abbr": "lal",
-      "nba_abbr": null,
       "full_name": "los-angeles-lakers",
       "address": "1111 S. Figueroa St., Los Angeles, CA 90015",
       "lat": 34.043125,
@@ -115,7 +107,6 @@
     {
       "division": "Pacific",
       "abbr": "phx",
-      "nba_abbr": null,
       "full_name": "phoenix-suns",
       "address": "201 E. Jefferson St., Phoenix, AZ 85004",
       "lat": 33.4459,
@@ -129,7 +120,6 @@
     {
       "division": "Pacific",
       "abbr": "sac",
-      "nba_abbr": null,
       "full_name": "sacramento-kings",
       "address": "One Sports Parkway, Sacramento, CA 95834",
       "lat": 38.648005,
@@ -143,7 +133,6 @@
     {
       "division": "Central",
       "abbr": "chi",
-      "nba_abbr": null,
       "full_name": "chicago-bulls",
       "address": "1901 W. Madison St., Chicago, IL 60612",
       "lat": 41.8812526,
@@ -157,7 +146,6 @@
     {
       "division": "Central",
       "abbr": "cle",
-      "nba_abbr": null,
       "full_name": "cleveland-cavaliers",
       "address": "One Center Court, Cleveland, OH 44115",
       "lat": 41.4967035,
@@ -171,7 +159,6 @@
     {
       "division": "Central",
       "abbr": "det",
-      "nba_abbr": null,
       "full_name": "detroit-pistons",
       "address": "Six Championship Drive, Auburn Hills, MI 48326",
       "lat": 42.69651100000001,
@@ -185,7 +172,6 @@
     {
       "division": "Central",
       "abbr": "ind",
-      "nba_abbr": null,
       "full_name": "indiana-pacers",
       "address": "125 S. Pennsylvania St., Indianapolis, IN 46204",
       "lat": 39.764064,
@@ -199,7 +185,6 @@
     {
       "division": "Central",
       "abbr": "mil",
-      "nba_abbr": null,
       "full_name": "milwaukee-bucks",
       "address": "1001 N. Fourth St., Milwaukee, WI 53203",
       "lat": 43.0430094,
@@ -213,7 +198,6 @@
     {
       "division": "Southwest",
       "abbr": "dal",
-      "nba_abbr": null,
       "full_name": "dallas-mavericks",
       "address": "2500 Victory Ave., Dallas, TX 75219",
       "lat": 32.7899544,
@@ -227,7 +211,6 @@
     {
       "division": "Southwest",
       "abbr": "hou",
-      "nba_abbr": null,
       "full_name": "houston-rockets",
       "address": "1510 Polk St., Houston, TX 77002",
       "lat": 29.7513984,
@@ -241,7 +224,6 @@
     {
       "division": "Southwest",
       "abbr": "mem",
-      "nba_abbr": null,
       "full_name": "memphis-grizzlies",
       "address": "191 Beale St., Memphis, TN 38103",
       "lat": 35.136686,
@@ -254,8 +236,7 @@
     },
     {
       "division": "Southwest",
-      "abbr": "no",
-      "nba_abbr": "nop",
+      "abbr": "nop",
       "full_name": "new-orleans-pelicans",
       "address": "1501 Girod St., New Orleans, LA 70113",
       "lat": 29.9485576,
@@ -268,8 +249,7 @@
     },
     {
       "division": "Southwest",
-      "abbr": "sa",
-      "nba_abbr": "sas",
+      "abbr": "sas",
       "full_name": "san-antonio-spurs",
       "address": "One AT&T Center Parkway, San Antonio, TX 78219",
       "lat": 29.4342371,
@@ -278,12 +258,11 @@
       "city": "San Antonio",
       "lon": -98.433667,
       "conference": "West",
-      "location": "San-Antonio"
+      "location": "San Antonio"
     },
     {
       "division": "Southeast",
       "abbr": "atl",
-      "nba_abbr": null,
       "full_name": "atlanta-hawks",
       "address": "One Philips Drive, Atlanta, GA 30303",
       "lat": 33.7570952,
@@ -297,7 +276,6 @@
     {
       "division": "Southeast",
       "abbr": "cha",
-      "nba_abbr": null,
       "full_name": "charlotte-hornets",
       "address": "330 E. Trade St., Charlotte, NC 28202",
       "lat": 35.2251392,
@@ -311,7 +289,6 @@
     {
       "division": "Southeast",
       "abbr": "mia",
-      "nba_abbr": null,
       "full_name": "miami-heat",
       "address": "601 Biscayne Blvd., Miami, FL 33132",
       "lat": 25.781232,
@@ -325,7 +302,6 @@
     {
       "division": "Southeast",
       "abbr": "orl",
-      "nba_abbr": null,
       "full_name": "orlando_magic",
       "address": "400 W. Church St., Orlando, FL 32801",
       "lat": 28.539832,
@@ -339,7 +315,6 @@
     {
       "division": "Southeast",
       "abbr": "wsh",
-      "nba_abbr": null,
       "full_name": "washington-wizards",
       "address": "601 F St. N.W., Washington, D.C. 20004",
       "lat": 38.8975827,
@@ -353,7 +328,6 @@
     {
       "division": "Northwest",
       "abbr": "den",
-      "nba_abbr": null,
       "full_name": "denver-nuggets",
       "address": "1000 Chopper Circle, Denver, CO 80204",
       "lat": 39.7483118,
@@ -367,7 +341,6 @@
     {
       "division": "Northwest",
       "abbr": "min",
-      "nba_abbr": null,
       "full_name": "minnesota-timberwolves",
       "address": "600 First Ave. North, Minneapolis, MN 55403",
       "lat": 44.979548,
@@ -381,7 +354,6 @@
     {
       "division": "Northwest",
       "abbr": "okc",
-      "nba_abbr": null,
       "full_name": "oklahoma-city-thunder",
       "address": "100 W. Reno Ave., Oklahoma City, OK 73102",
       "lat": 35.463391,
@@ -395,7 +367,6 @@
     {
       "division": "Northwest",
       "abbr": "por",
-      "nba_abbr": null,
       "full_name": "portland-trail-blazers",
       "address": "One Center Court, Portland, OR 97227",
       "lat": 45.5319834,
@@ -408,8 +379,7 @@
     },
     {
       "division": "Northwest",
-      "abbr": "utah",
-      "nba_abbr": "uta",
+      "abbr": "uta",
       "full_name": "utah-jazz",
       "address": "301 W. South Temple St., Salt Lake City, UT 84101",
       "lat": 40.768268,
