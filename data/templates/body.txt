@@ -1,1 +1,18 @@
-{Empty}
+##[{away}]({away_sub})     [at](#at)     [{home}]({home_sub})
+
+---
+#General Information#
+
+
+
+Time | Media | Location
+---|---|----
+{eastern} | **National**: {national} | {stadium}
+{central} | **TV**: {tv} | {address}
+{mountain} | **Game Story**: [NBA.com]({gamestory}) |
+{pacific} | **Box Score**: [stats.NBA.com]({boxscore}) |
+|||
+
+---
+Written by seemethere,
+[Source](https://github.com/seemethere/nba_gamethread_bot)

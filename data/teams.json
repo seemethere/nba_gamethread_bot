@@ -11,7 +11,8 @@
       "city": "Boston",
       "lon": -71.0602624,
       "conference": "East",
-      "location": "Boston"
+      "location": "Boston",
+      "sub": "bostonceltics"
     },
     {
       "division": "Atlantic",
@@ -24,7 +25,8 @@
       "city": "Brooklyn",
       "lon": -73.9760482,
       "conference": "East",
-      "location": "Brooklyn"
+      "location": "Brooklyn",
+      "sub": "gonets"
     },
     {
       "division": "Atlantic",
@@ -37,7 +39,8 @@
       "city": "New York City",
       "lon": -73.99426609999999,
       "conference": "East",
-      "location": "New York"
+      "location": "New York",
+      "sub": "nyknicks"
     },
     {
       "division": "Atlantic",
@@ -50,7 +53,8 @@
       "city": "Philadelphia",
       "lon": -75.1712574,
       "conference": "East",
-      "location": "Philadelphia"
+      "location": "Philadelphia",
+      "sub": "sixers"
     },
     {
       "division": "Atlantic",
@@ -63,7 +67,8 @@
       "city": "Toronto",
       "lon": -79.3784331,
       "conference": "East",
-      "location": "Toronto"
+      "location": "Toronto",
+      "sub": "torontoraptors"
     },
     {
       "division": "Pacific",
@@ -76,7 +81,8 @@
       "city": "Oakland",
       "lon": -122.2015715,
       "conference": "West",
-      "location": "Golden State"
+      "location": "Golden State",
+      "sub": "warriors"
     },
     {
       "division": "Pacific",
@@ -89,7 +95,8 @@
       "city": "Los Angeles",
       "lon": -118.267118,
       "conference": "West",
-      "location": "Los Angeles"
+      "location": "Los Angeles",
+      "sub": "laclippers"
     },
     {
       "division": "Pacific",
@@ -102,7 +109,8 @@
       "city": "Los Angeles",
       "lon": -118.267118,
       "conference": "West",
-      "location": "Los Angeles"
+      "location": "Los Angeles",
+      "sub": "lakers"
     },
     {
       "division": "Pacific",
@@ -115,7 +123,8 @@
       "city": "Phoenix",
       "lon": -112.071211,
       "conference": "West",
-      "location": "Phoenix"
+      "location": "Phoenix",
+      "sub": "suns"
     },
     {
       "division": "Pacific",
@@ -128,7 +137,8 @@
       "city": "Sacramento",
       "lon": -121.517077,
       "conference": "West",
-      "location": "Sacramento"
+      "location": "Sacramento",
+      "sub": "kings"
     },
     {
       "division": "Central",
@@ -141,7 +151,8 @@
       "city": "Chicago",
       "lon": -87.6741557,
       "conference": "East",
-      "location": "Chicago"
+      "location": "Chicago",
+      "sub": "chicagobulls"
     },
     {
       "division": "Central",
@@ -154,7 +165,8 @@
       "city": "Cleveland",
       "lon": -81.6894825,
       "conference": "East",
-      "location": "Cleveland"
+      "location": "Cleveland",
+      "sub": "clevelandcavs"
     },
     {
       "division": "Central",
@@ -167,7 +179,8 @@
       "city": "Auburn Hills",
       "lon": -83.2437214,
       "conference": "East",
-      "location": "Detroit"
+      "location": "Detroit",
+      "sub": "detroitpistons"
     },
     {
       "division": "Central",
@@ -180,7 +193,8 @@
       "city": "Indianapolis",
       "lon": -86.155507,
       "conference": "East",
-      "location": "Indiana"
+      "location": "Indiana",
+      "sub": "indianapacers"
     },
     {
       "division": "Central",
@@ -193,7 +207,8 @@
       "city": "Milwaukee",
       "lon": -87.9165562,
       "conference": "East",
-      "location": "Milwaukee"
+      "location": "Milwaukee",
+      "sub": "mkebucks"
     },
     {
       "division": "Southwest",
@@ -206,7 +221,8 @@
       "city": "Dallas",
       "lon": -96.8111569,
       "conference": "West",
-      "location": "Dallas"
+      "location": "Dallas",
+      "sub": "mavericks"
     },
     {
       "division": "Southwest",
@@ -219,7 +235,8 @@
       "city": "Houston",
       "lon": -95.3621397,
       "conference": "West",
-      "location": "Houston"
+      "location": "Houston",
+      "sub": "rockets"
     },
     {
       "division": "Southwest",
@@ -232,7 +249,8 @@
       "city": "Memphis",
       "lon": -90.051885,
       "conference": "West",
-      "location": "Memphis"
+      "location": "Memphis",
+      "sub": "memphisgrizzlies"
     },
     {
       "division": "Southwest",
@@ -245,7 +263,8 @@
       "city": "New Orleans",
       "lon": -90.07661159999999,
       "conference": "West",
-      "location": "New Orleans"
+      "location": "New Orleans",
+      "sub": "nolapelicans"
     },
     {
       "division": "Southwest",
@@ -258,7 +277,8 @@
       "city": "San Antonio",
       "lon": -98.433667,
       "conference": "West",
-      "location": "San Antonio"
+      "location": "San Antonio",
+      "sub": "nbaspurs"
     },
     {
       "division": "Southeast",
@@ -271,7 +291,8 @@
       "city": "Atlanta",
       "lon": -84.3971653,
       "conference": "East",
-      "location": "Atlanta"
+      "location": "Atlanta",
+      "sub": "atlantahawks"
     },
     {
       "division": "Southeast",
@@ -284,7 +305,8 @@
       "city": "Charlotte",
       "lon": -80.8406959,
       "conference": "East",
-      "location": "Charlotte"
+      "location": "Charlotte",
+      "sub": "charlottehornets"
     },
     {
       "division": "Southeast",
@@ -297,7 +319,8 @@
       "city": "Miami",
       "lon": -80.187805,
       "conference": "East",
-      "location": "Miami"
+      "location": "Miami",
+      "sub": "heat"
     },
     {
       "division": "Southeast",
@@ -310,7 +333,8 @@
       "city": "Orlando",
       "lon": -81.3840452,
       "conference": "East",
-      "location": "Orlando"
+      "location": "Orlando",
+      "sub": "orlandomagic"
     },
     {
       "division": "Southeast",
@@ -323,7 +347,8 @@
       "city": "Washington D.C.",
       "lon": -77.0210553,
       "conference": "East",
-      "location": "Washington"
+      "location": "Washington",
+      "sub": "washingtonwizards"
     },
     {
       "division": "Northwest",
@@ -336,7 +361,8 @@
       "city": "Denver",
       "lon": -105.0077534,
       "conference": "West",
-      "location": "Denver"
+      "location": "Denver",
+      "sub": "denvernuggets"
     },
     {
       "division": "Northwest",
@@ -349,7 +375,8 @@
       "city": "Minneapolis",
       "lon": -93.27615899999999,
       "conference": "West",
-      "location": "Minnesota"
+      "location": "Minnesota",
+      "sub": "timberwolves"
     },
     {
       "division": "Northwest",
@@ -362,7 +389,8 @@
       "city": "Oklahoma City",
       "lon": -97.514594,
       "conference": "West",
-      "location": "Oklahoma City"
+      "location": "Oklahoma City",
+      "sub": "thunder"
     },
     {
       "division": "Northwest",
@@ -375,7 +403,8 @@
       "city": "Portland",
       "lon": -122.6678056,
       "conference": "West",
-      "location": "Portland"
+      "location": "Portland",
+      "sub": "ripcity"
     },
     {
       "division": "Northwest",
@@ -388,7 +417,8 @@
       "city": "Salt Lake City",
       "lon": -111.901087,
       "conference": "West",
-      "location": "Utah"
+      "location": "Utah",
+      "sub": "utahjazz"
     }
   ]
 }

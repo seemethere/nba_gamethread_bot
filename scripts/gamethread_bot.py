@@ -19,6 +19,9 @@ with open('../data/teams.json', 'r') as teams_file:
 with open('../data/templates/title.txt', 'r') as title_file:
     title_text = title_file.read()
 
+with open('../data/templates/body.txt', 'r') as body_file:
+    body_text = body_file.read()
+
 class Game:
     def __init__(self, gameid, away, away_rec, home, home_rec, gametime, tv):
         self.gameid = gameid
@@ -30,18 +33,41 @@ class Game:
         self.posted = False
         self.tv = tv
 
+    def get_gamestory_url(self):
+        base = 'http://nba.com/games/{year}{month:02d}{day:02d}/'+\
+            '{away}{home}/gameinfo.html#nbaGllive'
+        return base.format(year=self.gametime.year,
+                           month=self.gametime.month,
+                           day=self.gametime.day,
+                           away=self.away['abbr'].upper(),
+                           home=self.home['abbr'].upper())
+
+    def get_boxscore_url(self):
+        base = 'http://stats.nba.com/game/#!/{gameid}/'
+        return base.format(gameid=self.gameid)
+
     def get_time(self, tz='US/Eastern'):
         time = self.gametime.to(tz).datetime
         return time.hour, time.minute
 
+    def get_time_string(self, tz='US/Eastern'):
+        hour, minute = self.get_time(tz)
+        suffix =  'PM' if hour > 12 else 'AM'
+        hour = hour - 12 if hour > 12 else hour
+        return "{:02d}:{:02d} {}".format(hour, minute, suffix)
+
     def get_team(self, is_home):
         fmt = '{} {} ({}-{})'
         if is_home:
-            return fmt.format(self.home['location'], self.home['nickname'],
-                              self.home_rec['wins'], self.home_rec['losses'])
+            return fmt.format(self.home['location'],
+                              self.home['nickname'],
+                              self.home_rec['wins'],
+                              self.home_rec['losses'])
         else:
-            return fmt.format(self.away['location'], self.away['nickname'],
-                              self.away_rec['wins'], self.away_rec['losses'])
+            return fmt.format(self.away['location'],
+                              self.away['nickname'],
+                              self.away_rec['wins'],
+                              self.away_rec['losses'])
 
     def starting_soon(self):
         if get_current().replace(minutes=30) > self.gametime:
@@ -94,6 +120,7 @@ def find_games_starting_soon():
     for game in games:
         if game.starting_soon():
             title = generate_title(game)
+            body = generate_body(game)
             games.remove(game)
             print "{}".format(title)
             #TODO: THIS IS WHERE THE POST TO REDDIT PART WILL GO
@@ -107,12 +134,30 @@ def generate_title(game):
                         home = game.get_team(True),
                         date = date_fmt)
 
+def generate_body(game):
+    body = body_text
+    return body.format(away=game.get_team(False),
+                       away_sub='/r/{}'.format(game.away['sub']),
+                       home=game.get_team(True),
+                       home_sub='/r/{}'.format(game.home['sub']),
+                       eastern=game.get_time_string('US/Eastern'),
+                       central=game.get_time_string('US/Central'),
+                       mountain=game.get_time_string('US/Mountain'),
+                       pacific=game.get_time_string('US/Pacific'),
+                       national="Yes" if game.on_national_tv else "No",
+                       tv=game.tv,
+                       stadium=game.home['arena'],
+                       address=game.home['address'],
+                       gamestory=game.get_gamestory_url(),
+                       boxscore=game.get_boxscore_url())
+
 def get_todays_games():
-    print "Getting today's games"
     now = get_current().datetime
     games[:] = []
-    scoreboard_base = "http://stats.nba.com/stats/scoreboard/?LeagueID={leagueid:02d}"+ \
-        "&gameDate={month:02d}%2F{day:02d}%2F{year}&DayOffset={offset}"
+    scoreboard_base = "http://stats.nba.com/stats/scoreboard/?"+\
+        "LeagueID={leagueid:02d}"+\
+        "&gameDate={month:02d}%2F{day:02d}%2F{year}"+\
+        "&DayOffset={offset}"
     scoreboard_url = scoreboard_base.format(leagueid = 00,
                                            month = now.month,
                                            day = now.day,
@@ -129,16 +174,24 @@ def get_todays_games():
             gameid = game[2]
             away = find_team(team_data[i][4])
             home = find_team(team_data[i+1][4])
-            gametime = arrow.now('US/Eastern').replace(hour=int(time[0]),
-                                                       minute=int(time[1]),
-                                                       second=0,
-                                                       microsecond=0)
+            gametime = get_current().replace(hour=int(time[0]),
+                                                      minute=int(time[1]),
+                                                      second=0,
+                                                      microsecond=0)
             gametime = convert_to_24(gametime, 'pm' in game[4])
             tv = game[11]
-            games.append(Game(gameid, away, get_record(team_data[i][6]), home, get_record(team_data[i+1][6]), gametime, tv))
+            games.append(Game(gameid,
+                              away,
+                              get_record(team_data[i][6]),
+                              home,
+                              get_record(team_data[i+1][6]),
+                              gametime,
+                              tv))
             i += 2
+        print "{}".format(get_table_of_games(games))
     else:
         print "Didn't work :("
+        exit()
 
 if __name__ == '__main__':
     version = 0.2
@@ -146,7 +199,6 @@ if __name__ == '__main__':
     get_todays_games()
     schedule.every().day.at('4:00').do(get_todays_games)
     schedule.every(1).minutes.do(find_games_starting_soon)
-    print "{}".format(get_table_of_games(games))
     while running:
         schedule.run_pending()
         sleep(30)
