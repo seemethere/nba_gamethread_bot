@@ -1,14 +1,11 @@
 #!/usr/bin/python
 
-from bs4 import BeautifulSoup
 from time import sleep
 from prettytable import PrettyTable
 import arrow
 import schedule
 import requests
 import json
-import curses
-
 
 start_offset = 30 #in minutes
 games = []
@@ -23,7 +20,8 @@ with open('../data/templates/title.txt', 'r') as title_file:
     title_text = title_file.read()
 
 class Game:
-    def __init__(self, away, away_rec, home, home_rec, gametime, tv):
+    def __init__(self, gameid, away, away_rec, home, home_rec, gametime, tv):
+        self.gameid = gameid
         self.away = away
         self.away_rec = away_rec
         self.home = home
@@ -59,8 +57,8 @@ class Game:
 def get_current():
     return arrow.now('US/Eastern')
 
-#Original arrow objects did not account for AM/PM, this is to remedy that
 def convert_to_24(time, is_PM):
+    #Originally arrow objects do not account for AM/PM, this is to remedy that
     if is_PM:
         return time.replace(hours=12)
     else:
@@ -71,29 +69,12 @@ def find_team(abbr):
         if abbr.lower() == team['abbr']:
             return team
 
-def get_record(team):
-    loc = team['location']
-    # These two teams are weird in how they're accounted for
-    if loc == 'Los Angeles':
-        if team['abbr'] == 'lac':
-            loc = 'L.A. Clippers'
-        else:
-            loc = 'L.A. Lakers'
-    nba_url = 'http://www.nba.com/standings/team_record_comparison/conferenceNew_Std_Div.html'
-    r = requests.get(nba_url)
-    if r.status_code == 200:
-        soup = BeautifulSoup(r.text)
-        records = soup.findAll('tr', {'class':'odd'})
-        records2 = soup.findAll('tr', {'class':'even'})
-        for element in records2:
-            records.append(element)
-        for element in records:
-            if loc in str(element.contents[1]):
-                record = {}
-                record['wins'] = element.contents[3].string
-                record['losses'] = element.contents[5].string
-        return record
-    print "ERROR: Couldn't find record for {} {}".format(loc, team['nickname'])
+def get_record(team_row):
+    record = {}
+    record['total'] = team_row.split('-')
+    record['wins'] = record['total'][0]
+    record['losses'] = record['total'][1]
+    return record
 
 def get_table_of_games(matches):
     table = PrettyTable(['Time', 'Away', 'Home', 'Starting Soon', 'TV'])
@@ -108,7 +89,8 @@ def get_table_of_games(matches):
     return table.get_string()
 
 def find_games_starting_soon():
-    print "Searching for games starting soon..."
+    c = get_current()
+    print "[{:02d}:{:02d}:{:02d}] Searching for games starting soon...".format(c.hour, c.minute, c.second)
     for game in games:
         if game.starting_soon():
             title = generate_title(game)
@@ -129,46 +111,34 @@ def get_todays_games():
     print "Getting today's games"
     now = get_current().datetime
     games[:] = []
-    date_fmt = '{year}{month:02d}{day:02d}'.format(year=now.year,
-                                                   month=now.month,
-                                                   day=now.day)
-    today_url = 'http://www.nba.com/gameline/{date}/'.format(date=date_fmt)
-    #today_url = 'http://www.nba.com/gameline/20150213/' #Error 403 Tester
-    r = requests.get(today_url)
+    scoreboard_base = "http://stats.nba.com/stats/scoreboard/?LeagueID={leagueid:02d}"+ \
+        "&gameDate={month:02d}%2F{day:02d}%2F{year}&DayOffset={offset}"
+    scoreboard_url = scoreboard_base.format(leagueid = 00,
+                                           month = now.month,
+                                           day = now.day,
+                                           year = now.year,
+                                           offset = 0)
+    r = requests.get(scoreboard_url)
     if r.status_code == 200:
-        soup = BeautifulSoup(r.text)
-        times_base = soup.findAll('div', {'class':'nbaFnlStatTxSm'})
-        times = [str(element.string) for element in times_base]
-        if len(times) < 1: return None
-        matchups_base = soup.findAll('div', {'class': 'nbaPreMnButtDiv'})
-        matchups = [str(element)[54:61] for element in matchups_base]
-        tv_stations = soup.findAll('div', {'class':'nbaLiveNetwkLogo'})
+        scoreboard = json.loads(r.text)
+        game_data = scoreboard['resultSets'][0]['rowSet']
+        team_data = scoreboard['resultSets'][1]['rowSet']
         i = 0
-        for matchup in matchups:
-            time = times[i].split(':')
-            # Finds out the tv stations it's on
-            if 'nbaTNT' in  str(tv_stations[i]):
-                tv = 'TNT'
-            elif 'nbaESPN2' in str(tv_stations[i]):
-                tv = 'ESPN2'
-            elif 'nbaESPN' in str(tv_stations[i]):
-                tv = 'ESPN'
-            elif 'nbaNBATV' in str(tv_stations[i]):
-                tv = 'NBATV'
-            else:
-                tv = 'NBALP'
-            away = find_team(matchup[0:3])
-            home = find_team(matchup[3:6])
-            gametime = arrow.now('US/Eastern').replace(hour=int(time[0][0:2]),
-                                                       minute=int(time[1][0:2]),
+        for game in game_data:
+            time = game[4].replace(':', ' ').split(' ')
+            gameid = game[2]
+            away = find_team(team_data[i][4])
+            home = find_team(team_data[i+1][4])
+            gametime = arrow.now('US/Eastern').replace(hour=int(time[0]),
+                                                       minute=int(time[1]),
                                                        second=0,
                                                        microsecond=0)
-            gametime = convert_to_24(gametime, 'pm' in time[1])
-            games.append(Game(away, get_record(away), home, get_record(home), gametime, tv))
-            i += 1
+            gametime = convert_to_24(gametime, 'pm' in game[4])
+            tv = game[11]
+            games.append(Game(gameid, away, get_record(team_data[i][6]), home, get_record(team_data[i+1][6]), gametime, tv))
+            i += 2
     else:
-        None
-        #TODO: Add error logging mechanism
+        print "Didn't work :("
 
 if __name__ == '__main__':
     version = 0.2
