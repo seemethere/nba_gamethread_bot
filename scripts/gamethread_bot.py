@@ -2,12 +2,14 @@
 
 from time import sleep
 from prettytable import PrettyTable
+import praw
 import arrow
 import schedule
 import requests
 import json
 
 start_offset = 30 #in minutes
+subreddit = 'seemethere'
 games = []
 running = True
 
@@ -74,7 +76,8 @@ class Game:
             return True
         return False
 
-    def is_posted(self):
+    def posted(self):
+        self.posted = True
         return self.posted
 
     def on_national_tv(self):
@@ -103,27 +106,36 @@ def get_record(team_row):
     return record
 
 def get_table_of_games(matches):
-    table = PrettyTable(['Time', 'Away', 'Home', 'Starting Soon', 'TV'])
+    table = PrettyTable(['Time', 'Away', 'Home', 'Starting Soon', 'TV', 'Time until Start'])
     table.align['Home'] = table.align['Away'] = 'l'
     for game in matches:
         hour, minute = game.get_time()
+        timedelta_to_start = game.gametime - get_current()
+        time_to_start = get_current().replace(seconds=timedelta_to_start.seconds + 60)
         table.add_row(['{:02d}:{:02d}'.format(hour, minute),
                        game.get_team(False),
                        game.get_team(True),
                        game.starting_soon(),
-                       game.tv])
+                       game.tv,
+                       time_to_start.humanize()])
     return table.get_string()
 
 def find_games_starting_soon():
     c = get_current()
     print "[{:02d}:{:02d}:{:02d}] Searching for games starting soon...".format(c.hour, c.minute, c.second)
+    print "{}".format(get_table_of_games(games))
     for game in games:
         if game.starting_soon():
             title = generate_title(game)
             body = generate_body(game)
-            games.remove(game)
-            print "{}".format(title)
-            #TODO: THIS IS WHERE THE POST TO REDDIT PART WILL GO
+            if game.posted == False:
+                try:
+                    r.submit(subreddit, title, body)
+                    game.posted()
+                except praw.errors.APIException, e:
+                    print "[ERROR]: {}".format(e)
+                    return
+                print "{}".format(title)
 
 def generate_title(game):
     title = title_text
@@ -171,6 +183,10 @@ def get_todays_games():
         i = 0
         for game in game_data:
             time = game[4].replace(':', ' ').split(' ')
+            # This lets us skip games if they've already started
+            if not time[0].isdigit():
+                i+= 2
+                continue
             gameid = game[2]
             away = find_team(team_data[i][4])
             home = find_team(team_data[i+1][4])
@@ -193,9 +209,17 @@ def get_todays_games():
         print "Didn't work :("
         exit()
 
+def get_login_info(inp):
+    with open(inp) as login_file:
+        info = login_file.read().split()
+    return info[0], info[1]
+
 if __name__ == '__main__':
     version = 0.2
     print "NBA Gamethread Bot v{} by seemethere has started...".format(version)
+    r = praw.Reddit(user_agent='NBA_MOD_BOT')
+    user, passwd = get_login_info('../LOGIN')
+    r.login(user, passwd)
     get_todays_games()
     schedule.every().day.at('4:00').do(get_todays_games)
     schedule.every(1).minutes.do(find_games_starting_soon)
