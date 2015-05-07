@@ -2,6 +2,7 @@
 
 from time import sleep
 from prettytable import PrettyTable
+import getpass
 import praw
 import arrow
 import schedule
@@ -34,6 +35,7 @@ class Game:
         self.gametime = gametime
         self.posted = False
         self.tv = tv
+        self.post = None
 
     def get_gamestory_url(self):
         base = 'http://nba.com/games/{year}{month:02d}{day:02d}/'+\
@@ -76,8 +78,9 @@ class Game:
             return True
         return False
 
-    def posted(self):
+    def post_it(self, post):
         self.posted = True
+        self.post = post
         return self.posted
 
     def on_national_tv(self):
@@ -130,12 +133,11 @@ def find_games_starting_soon():
             body = generate_body(game)
             if game.posted == False:
                 try:
-                    r.submit(subreddit, title, body)
-                    game.posted()
+                    game.post_it(r.submit(subreddit, title, body))
+                    print "Successfully posted: {}".format(title)
                 except praw.errors.APIException, e:
                     print "[ERROR]: {}".format(e)
                     return
-                print "{}".format(title)
 
 def generate_title(game):
     title = title_text
@@ -148,7 +150,11 @@ def generate_title(game):
 
 def generate_body(game):
     body = body_text
-    return body.format(away=game.get_team(False),
+    date_fmt = '{}/{}/{}'.format(game.gametime.month,
+                                 game.gametime.day,
+                                 game.gametime.year)
+    return body.format(date = date_fmt,
+                       away=game.get_team(False),
                        away_sub='/r/{}'.format(game.away['sub']),
                        home=game.get_team(True),
                        home_sub='/r/{}'.format(game.home['sub']),
@@ -216,9 +222,10 @@ def get_login_info(inp):
 
 if __name__ == '__main__':
     version = 0.2
-    print "NBA Gamethread Bot v{} by seemethere has started...".format(version)
-    r = praw.Reddit(user_agent='NBA_MOD_BOT')
-    user, passwd = get_login_info('../LOGIN')
+    print "NBA Gamethread Bot v{} by /u/_seemethere has started...".format(version)
+    user = raw_input("Username: ")
+    passwd = getpass.getpass()
+    r = praw.Reddit(user_agent=user)
     r.login(user, passwd)
     get_todays_games()
     schedule.every().day.at('4:00').do(get_todays_games)

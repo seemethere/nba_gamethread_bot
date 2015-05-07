@@ -1,4 +1,4 @@
-##[{away}]({away_sub})     **@**     [{home}]({home_sub})
+##[{away}]({away_sub})     **@**     [{home}]({home_sub}) ({date})
 
 ---
 #General Information#
